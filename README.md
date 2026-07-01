@@ -11,16 +11,16 @@ An end-to-end pipeline that collects, cleans, and analyzes user reviews of Spoti
 ## Screenshots
 
 ### Overview Page
-![Overview Page](screenshots/overview.png)
+<img width="1906" height="921" alt="image" src="https://github.com/user-attachments/assets/7d54785f-20d5-49ce-951f-50b55db78fed" />
 
 ### Themes Page
-![Themes Page](screenshots/themes.png)
+<img width="1906" height="862" alt="image" src="https://github.com/user-attachments/assets/3012ad7b-caaa-48a1-9f5e-e835f7bc54a5" />
 
-### Question Answers Page
-![Question Answers](screenshots/question_answers.png)
+### Ask the Data Page
+<img width="1916" height="916" alt="image" src="https://github.com/user-attachments/assets/42128fc9-5b7f-4bc3-9b72-ec1264bd83bb" />
 
 ### Methodology & Limitations
-![Methodology](screenshots/methodology.png)
+<img width="1893" height="852" alt="image" src="https://github.com/user-attachments/assets/6f4f1dbf-4b76-46ff-a896-1905230e0c98" />
 
 ---
 
