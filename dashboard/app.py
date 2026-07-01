@@ -264,7 +264,7 @@ elif page == "Question Answers":
         if not theme_list:
             st.caption("No directly matched themes.")
             return
-        t_df = pd.DataFrame(theme_list)[["theme", "count", "pct"]].copy()
+        t_df = pd.DataFrame(theme_list)[["theme", "count", "pct_of_field"]].copy()
         t_df.columns = ["Theme", "Count", "% of field"]
         t_df["Theme"] = t_df["Theme"].str.title()
         st.caption(label)
