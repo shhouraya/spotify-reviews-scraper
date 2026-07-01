@@ -14,7 +14,7 @@ analysis_outputs/raw_playstore.csv
 analysis_outputs/raw_appstore.csv
 analysis_outputs/raw_reddit.csv
 analysis_outputs/cleaned_dataset.csv
-analysis_outputs/analyzed_dataset.json
+# analysis_outputs/analyzed_dataset.json  # included for dashboard
 
 # Keep the pre-computed summary for the dashboard
 !analysis_outputs/theme_summary.json
