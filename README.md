@@ -107,17 +107,16 @@ Free-form LLM-extracted labels are grouped into themes using:
 **Output themes (pain points):** excessive ads, finding new music, app reliability issues, app bugs and broken features, subscription pricing complaints, AI/algorithm dissatisfaction, repetitive recommendations, and more.
 
 ### Stage 5 — Dashboard
-A 5-page Streamlit app deployed on Streamlit Community Cloud:
+A 4-page Streamlit app deployed on Streamlit Community Cloud:
 
 | Page | Description |
 |---|---|
 | **Overview** | Total volume, source breakdown, sentiment distribution, sample reviews |
 | **Themes** | Pain points, user goals, and user segments with drill-down detail and example quotes |
-| **Question Answers** | Findings mapped to all 6 research questions with supporting data |
 | **Ask the Data** | Free-form Q&A — type any question and get an AI-generated answer grounded in the theme data via a live Groq API call |
 | **Methodology & Limitations** | Pipeline documentation and caveats |
 
-Pages 1–3 and 5 load exclusively from pre-computed JSON. The "Ask the Data" page makes live Groq API calls at runtime using a key stored in Streamlit secrets.
+Pages 1, 2, and 4 load exclusively from pre-computed JSON. The "Ask the Data" page makes live Groq API calls at runtime using a key stored in Streamlit secrets.
 
 ---
 

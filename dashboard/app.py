@@ -49,7 +49,7 @@ def load_analyzed_dataset() -> pd.DataFrame:
 st.sidebar.title("Navigation")
 page = st.sidebar.radio(
     "Go to",
-    ["Overview", "Themes", "Question Answers", "Ask the Data", "Methodology & Limitations"],
+    ["Overview", "Themes", "Ask the Data", "Methodology & Limitations"],
 )
 
 summary = load_theme_summary()
@@ -250,132 +250,7 @@ elif page == "Themes":
 
 
 # ---------------------------------------------------------------------------
-# PAGE 3 — Question Answers
-# ---------------------------------------------------------------------------
-
-elif page == "Question Answers":
-    st.title("Answers to the Six Research Questions")
-    st.markdown(
-        "Each answer is grounded directly in the extracted themes and review data. "
-        "Supporting quotes are drawn from the analyzed dataset."
-    )
-
-    qm = summary["question_mapping"]
-
-    def render_themes(theme_list: list[dict], label: str = "Relevant themes"):
-        if not theme_list:
-            st.caption("No directly matched themes.")
-            return
-        t_df = pd.DataFrame(theme_list)[["theme", "count", "pct_of_field"]].copy()
-        t_df.columns = ["Theme", "Count", "% of field"]
-        t_df["Theme"] = t_df["Theme"].str.title()
-        st.caption(label)
-        st.dataframe(t_df, use_container_width=True, hide_index=True)
-
-    def render_quotes(quotes: list[str]):
-        for q in quotes:
-            st.markdown(f"> {q}")
-
-    # Q1
-    with st.expander("Q1 — Why do users struggle to discover new music?", expanded=True):
-        q1 = qm["q1_discovery_struggles"]
-        st.markdown(
-            "**Finding**: Discovery struggles cluster around two pain points: the algorithm surfacing "
-            "unwanted AI-generated content, and recommendations that feel repetitive or stagnant. "
-            "Users want to find new music but feel the system works against them."
-        )
-        col1, col2 = st.columns(2)
-        with col1:
-            render_themes(q1["relevant_pain_themes"], "Pain points related to discovery")
-        with col2:
-            render_themes(q1["relevant_goal_themes"], "Discovery-related user goals")
-
-    # Q2
-    with st.expander("Q2 — What are the most common frustrations with recommendations?"):
-        q2 = qm["q2_recommendation_frustrations"]
-        st.markdown(
-            "**Finding**: The top frustrations are repetitive shuffle algorithms, AI-generated music "
-            "appearing in curated lists without clear labelling, and the inability to meaningfully "
-            "influence what gets recommended."
-        )
-        render_themes(q2["relevant_pain_themes"], "Recommendation-related pain themes")
-        st.divider()
-        st.caption("Top pain themes overall (for context)")
-        render_themes(q2["top_pain_themes_overall"])
-
-    # Q3
-    with st.expander("Q3 — What listening behaviors are users trying to achieve?"):
-        q3 = qm["q3_listening_behaviors"]
-        st.markdown(
-            "**Finding**: The dominant behaviour is active music discovery — users want to find new "
-            "artists and songs, not just replay familiar content. A significant secondary cluster "
-            "seeks emotionally purposeful listening (mood, relaxation, background ambience)."
-        )
-        render_themes(q3["relevant_goal_themes"], "All user goal themes")
-
-    # Q4
-    with st.expander("Q4 — What causes users to repeatedly listen to the same content?"):
-        q4 = qm["q4_repetition_causes"]
-        st.markdown(
-            f"**Finding**: {q4['repetition_complaint_count']} reviews explicitly mention repetition as a "
-            "pain point. The primary causes are a shuffle algorithm that cycles through the same pool, "
-            "recommendation playlists that stop updating, and AI-driven features that narrow variety "
-            "rather than broadening it."
-        )
-        render_themes(q4["relevant_pain_themes"], "Repetition-related pain themes")
-        if q4["example_quotes"]:
-            st.markdown("**User quotes on repetition:**")
-            render_quotes(q4["example_quotes"])
-
-    # Q5
-    with st.expander("Q5 — Which user segments experience different discovery challenges?"):
-        q5 = qm["q5_segment_challenges"]
-        st.markdown(
-            "**Finding**: Long-time users (31% of segment-tagged reviews) are most vocal about "
-            "algorithm regression — they recall Spotify working better and feel discovery has worsened. "
-            "Free-tier users face structural discovery limits (skip caps, no on-demand). "
-            "New users struggle with initial personalisation."
-        )
-        seg_data = q5["segment_themes"]
-        sig = [s for s in seg_data if s["count"] > 1]
-        if sig:
-            s_df = pd.DataFrame([{
-                "Segment": s["segment"].title(),
-                "Count": s["count"],
-                "% of Segments": s["pct_of_segments"],
-            } for s in sig]).sort_values("Count", ascending=False)
-            st.dataframe(s_df, use_container_width=True, hide_index=True)
-
-        st.divider()
-        st.caption("Discovery-related pain point rate by segment")
-        disc_seg = q5["discovery_pain_by_segment"]
-        if disc_seg:
-            ds_df = pd.DataFrame([
-                {"Segment": seg.title(), "Total Reviews": v["total"],
-                 "With Discovery Pain": v["discovery_pain"],
-                 "% With Discovery Pain": v["pct_with_discovery_pain"]}
-                for seg, v in disc_seg.items()
-                if v["total"] >= 3
-            ]).sort_values("% With Discovery Pain", ascending=False)
-            st.dataframe(ds_df, use_container_width=True, hide_index=True)
-
-    # Q6
-    with st.expander("Q6 — What unmet needs emerge consistently across reviews?"):
-        q6 = qm["q6_unmet_needs"]
-        st.markdown(
-            "**Finding**: The clearest unmet needs are: (1) a recommendation engine that broadens "
-            "rather than narrows listening; (2) meaningful discovery tools that surface genuinely new "
-            "content; (3) reliable core app behaviour. These cut across all sources and segments."
-        )
-        col_p, col_g = st.columns(2)
-        with col_p:
-            render_themes(q6["top_pain_themes"], "Top pain themes (unmet needs)")
-        with col_g:
-            render_themes(q6["top_goal_themes"], "Top goal themes (desired outcomes)")
-
-
-# ---------------------------------------------------------------------------
-# PAGE 4 — Ask the Data
+# PAGE 3 — Ask the Data
 # ---------------------------------------------------------------------------
 
 elif page == "Ask the Data":
@@ -524,7 +399,7 @@ Keep answers concise: 3–6 sentences or a short bullet list. Do not repeat the 
 
 
 # ---------------------------------------------------------------------------
-# PAGE 5 — Methodology & Limitations
+# PAGE 4 — Methodology & Limitations
 # ---------------------------------------------------------------------------
 
 elif page == "Methodology & Limitations":
