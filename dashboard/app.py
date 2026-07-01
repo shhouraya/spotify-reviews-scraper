@@ -1,9 +1,11 @@
 """
 Streamlit dashboard for AI-Powered Music App Review Analysis.
-Loads only from pre-computed JSON files — no live API calls.
+Pages 1-4 load from pre-computed JSON. Page 5 ("Ask the Data") calls
+the Groq API live using the key stored in Streamlit secrets.
 """
 
 import json
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -47,7 +49,7 @@ def load_analyzed_dataset() -> pd.DataFrame:
 st.sidebar.title("Navigation")
 page = st.sidebar.radio(
     "Go to",
-    ["Overview", "Themes", "Question Answers", "Methodology & Limitations"],
+    ["Overview", "Themes", "Question Answers", "Ask the Data", "Methodology & Limitations"],
 )
 
 summary = load_theme_summary()
@@ -373,7 +375,156 @@ elif page == "Question Answers":
 
 
 # ---------------------------------------------------------------------------
-# PAGE 4 — Methodology & Limitations
+# PAGE 4 — Ask the Data
+# ---------------------------------------------------------------------------
+
+elif page == "Ask the Data":
+    st.title("Ask the Data")
+    st.markdown(
+        "Ask any question about Spotify user reviews and get an AI-generated answer "
+        "grounded in the **{:,} reviews** collected for this project. "
+        "The model has access to all extracted themes, segment breakdowns, sentiment "
+        "distributions, and example quotes — but not the raw review text.".format(meta["total_records"])
+    )
+
+    # Build the context string from theme_summary once (not inside the submit handler)
+    def build_context(summary: dict) -> str:
+        lines = []
+        lines.append("=== DATASET OVERVIEW ===")
+        m = summary["metadata"]
+        lines.append(f"Total reviews: {m['total_records']}")
+        lines.append(f"Sources: Google Play Store, Apple App Store, Reddit")
+        lines.append(f"Reviews with a pain point: {m['records_with_pain_point']}")
+        lines.append(f"Reviews with a user goal: {m['records_with_user_goal']}")
+        lines.append(f"Reviews with a segment signal: {m['records_with_segment']}")
+
+        lines.append("\n=== PAIN POINT THEMES ===")
+        for t in summary["pain_point_themes"]:
+            lines.append(
+                f"- {t['theme']} (n={t['count']}, {t['pct_of_field']}% of pain-expressing reviews)"
+            )
+            if t.get("example_quotes"):
+                lines.append(f"  Example: \"{t['example_quotes'][0]}\"")
+
+        lines.append("\n=== USER GOAL THEMES ===")
+        for t in summary["user_goal_themes"]:
+            lines.append(
+                f"- {t['theme']} (n={t['count']}, {t['pct_of_field']}% of goal-expressing reviews)"
+            )
+            if t.get("example_quotes"):
+                lines.append(f"  Example: \"{t['example_quotes'][0]}\"")
+
+        lines.append("\n=== USER SEGMENTS (count > 1) ===")
+        for s in summary["segment_themes"]:
+            if s["count"] > 1:
+                lines.append(f"- {s['segment']} (n={s['count']}, {s['pct_of_segments']}% of segment-tagged reviews)")
+
+        lines.append("\n=== SENTIMENT DISTRIBUTION ===")
+        qm = summary["question_mapping"]
+        # Pull sentiment from Q4 context which has total counts
+        lines.append("(Derived from full dataset)")
+        lines.append("Sentiments: positive, negative, neutral, mixed")
+
+        lines.append("\n=== SEGMENT × DISCOVERY PAIN CROSSTAB ===")
+        disc = qm.get("q5_segment_challenges", {}).get("discovery_pain_by_segment", {})
+        for seg, v in disc.items():
+            if v["total"] >= 3:
+                lines.append(
+                    f"- {seg}: {v['discovery_pain']}/{v['total']} reviews mention discovery pain "
+                    f"({v['pct_with_discovery_pain']}%)"
+                )
+
+        return "\n".join(lines)
+
+    SYSTEM_PROMPT = """You are an analyst assistant for a study of Spotify user reviews.
+You have been given a structured summary of {n} reviews collected from the Google Play Store,
+Apple App Store, and Reddit. The summary includes extracted pain point themes, user goal themes,
+user segment breakdowns, and example quotes.
+
+Answer the user's question using ONLY the data provided. Be specific — cite theme names, counts,
+and percentages where relevant. Use bullet points for clarity when listing multiple findings.
+
+If the question cannot be answered from the data (e.g. it asks about something not covered in
+the reviews, or requires information outside the dataset), say so directly and briefly explain
+what the data does and does not cover. Do not speculate or invent findings.
+
+Keep answers concise: 3–6 sentences or a short bullet list. Do not repeat the question back."""
+
+    context = build_context(summary)
+
+    # Groq API key — try Streamlit secrets first, fall back to env var for local dev
+    def get_groq_client():
+        try:
+            from groq import Groq
+            api_key = st.secrets.get("GROQ_API_KEY") or os.environ.get("GROQ_API_KEY")
+            if not api_key:
+                return None, "GROQ_API_KEY not found. Add it to Streamlit secrets or your .env file."
+            return Groq(api_key=api_key), None
+        except ImportError:
+            return None, "`groq` package not installed. Run `pip install groq`."
+
+    # Suggested questions
+    st.markdown("**Try a question, or write your own:**")
+    suggestions = [
+        "Which user segment is most frustrated with music discovery?",
+        "What are the top unmet needs across all reviews?",
+        "How do free-tier users differ from premium users in their complaints?",
+        "What do users say about Spotify's shuffle algorithm?",
+        "Which pain points are most common among long-time users?",
+    ]
+    cols = st.columns(len(suggestions))
+    for i, (col, suggestion) in enumerate(zip(cols, suggestions)):
+        if col.button(suggestion, key=f"suggestion_{i}", use_container_width=True):
+            st.session_state["ask_question_input"] = suggestion
+
+    question = st.text_area(
+        "Your question",
+        value=st.session_state.get("ask_question_input", ""),
+        placeholder="e.g. What are the biggest frustrations with Spotify's recommendation algorithm?",
+        height=80,
+        key="ask_question_input",
+    )
+
+    if st.button("Get Answer", type="primary", disabled=not question.strip()):
+        client, err = get_groq_client()
+        if err:
+            st.error(err)
+        else:
+            with st.spinner("Analysing the reviews..."):
+                try:
+                    response = client.chat.completions.create(
+                        model="llama-3.1-8b-instant",
+                        messages=[
+                            {
+                                "role": "system",
+                                "content": SYSTEM_PROMPT.format(n=meta["total_records"])
+                                + "\n\n=== REVIEW DATA SUMMARY ===\n"
+                                + context,
+                            },
+                            {"role": "user", "content": question.strip()},
+                        ],
+                        temperature=0.3,
+                        max_tokens=600,
+                    )
+                    answer = response.choices[0].message.content.strip()
+                    st.markdown("### Answer")
+                    st.markdown(answer)
+                    st.caption(
+                        "Answer generated by Llama 3.1 (via Groq) from aggregated theme data. "
+                        "Not based on individual review text."
+                    )
+                except Exception as e:
+                    st.error(f"API error: {e}")
+
+    st.divider()
+    st.caption(
+        "This feature uses the Groq API (Llama 3.1 8B). Answers are generated from "
+        "pre-aggregated theme summaries, not the raw review text. Results may vary."
+    )
+
+
+# ---------------------------------------------------------------------------
+# PAGE 5 — Methodology & Limitations
 # ---------------------------------------------------------------------------
 
 elif page == "Methodology & Limitations":

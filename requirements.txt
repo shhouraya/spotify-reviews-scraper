@@ -1,6 +1,7 @@
 # Dashboard dependencies (Streamlit Cloud deployment)
 streamlit
 pandas
+groq
 
 # Offline pipeline dependencies (run locally, not needed for dashboard)
 # google-play-scraper
