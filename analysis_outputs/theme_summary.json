@@ -1,0 +1,3209 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-30T18:34:17.300069Z",
+    "total_records": 932,
+    "records_with_pain_point": 357,
+    "records_with_user_goal": 372,
+    "records_with_segment": 297,
+    "pain_point_clusters": 10,
+    "user_goal_clusters": 8
+  },
+  "pain_point_themes": [
+    {
+      "theme": "excessive ads",
+      "cluster_id": 6,
+      "count": 88,
+      "pct_of_field": 24.6,
+      "example_quotes": [
+        "standard is not that bad.. it's just the ads that keep bothering. Premium is great, Spotify has superior sound quality.",
+        "the only thing i dont like about spotify is the million ads but my fav part is how you can see lyrics ALPHA APP \nGREAT",
+        "all the app is best for all the music, podcasts and songs but 1 thing is very irritating that ads are too much long"
+      ],
+      "segment_breakdown": {
+        "premium user": 12,
+        "free tier user": 11,
+        "long-time user": 3,
+        "iOS user": 2,
+        "low-income user": 1,
+        "new user": 1,
+        "podcast listener": 1,
+        "Spotify user": 1
+      },
+      "raw_labels": [
+        "Advertisements",
+        "Advertisements in free tier",
+        "Limited skips and ads",
+        "Long ad breaks",
+        "Save on Foods ad",
+        "Too many ads",
+        "Too many commercials",
+        "Unfair ad placement",
+        "ads",
+        "ads after every 2 songs",
+        "ads after every 2-3 songs",
+        "ads after every song",
+        "ads and frequent errors",
+        "ads and high cost",
+        "ads and inability to skip",
+        "ads and limited skips",
+        "ads and poor user experience",
+        "ads and premium costs",
+        "ads and skip limitations",
+        "ads and skipping issues",
+        "ads and skips limit",
+        "ads and subscription",
+        "ads are annoying",
+        "ads are bothering",
+        "ads are too much",
+        "ads during skips",
+        "ads interrupting music",
+        "ads not skipable",
+        "ads on dating sites",
+        "ads on larger screen",
+        "ads ruin listening experience",
+        "ads with premium access",
+        "aggressive ads",
+        "annoying ads",
+        "annoying ads and premium prompts",
+        "excessive ads",
+        "excessive ads and marketing",
+        "forced ads and paid content",
+        "frequent ads",
+        "frequent ads on podcasts",
+        "interrupting ads",
+        "interruptive ads",
+        "long ads",
+        "loud and intrusive ads",
+        "many ads",
+        "many ads for non-premium users",
+        "political ads",
+        "popup ads",
+        "repetitive ads",
+        "skipping playlist, ads",
+        "too many ads"
+      ]
+    },
+    {
+      "theme": "finding new music",
+      "cluster_id": 5,
+      "count": 50,
+      "pct_of_field": 14.0,
+      "example_quotes": [
+        "I love it very much but i want to pick out the songs without having to worry about the app saying pay for picking songs",
+        "Why are songs that I have chosen to hide in an album suddenly no longer greyed out??? Atrocious UI design decision.",
+        "To put it mildly, Spotify is the worst deal for musicians in history, but an offer they have no choice to refuse."
+      ],
+      "segment_breakdown": {
+        "long-time user": 9,
+        "music enthusiast": 8,
+        "free tier user": 4,
+        "new user": 3,
+        "Spotify user": 2,
+        "accessibility / mental health user": 2,
+        "artist / musician": 1,
+        "music discoverer": 1,
+        "music taste changed": 1,
+        "genre enthusiast": 1,
+        "karaoke singers": 1,
+        "student": 1,
+        "musical fan": 1
+      },
+      "raw_labels": [
+        "AI music in discover list",
+        "AI songs incorrectly attributed",
+        "AI-generated music on official profiles",
+        "Can't choose songs",
+        "Can't find uplifting music",
+        "Hidden songs reappear",
+        "Identify background music",
+        "Incorrect artist credits",
+        "Lack of music diversity",
+        "Lack of new music",
+        "Limited music selection",
+        "Missing tracks in top search result",
+        "algorithm-driven music discovery",
+        "bored with same songs",
+        "boredom with slow music",
+        "can't find musical story songs",
+        "dated lyrics interface",
+        "difficulty finding new music",
+        "dulling mind with same music",
+        "finding enjoyable music",
+        "finding good music",
+        "finding new music",
+        "finding non-romantic karaoke songs",
+        "guests use other music services",
+        "hard time finding songs",
+        "helping upcoming artists",
+        "inadequate music suggestions",
+        "limited music diversity",
+        "listening to same music",
+        "looping music for free",
+        "mainstream recommendations",
+        "music discovery issues",
+        "music doesn't feel normal",
+        "music library disorganization",
+        "music not to my taste",
+        "musicians not paid",
+        "no new music",
+        "not getting new songs",
+        "organizing liked songs",
+        "pay for song selection",
+        "same songs and artists",
+        "song recommendations",
+        "songs not fitting age",
+        "songs rarely play",
+        "uninspired music recommendations",
+        "unknown songs added",
+        "worst deal for musicians"
+      ]
+    },
+    {
+      "theme": "app reliability issues",
+      "cluster_id": 0,
+      "count": 46,
+      "pct_of_field": 12.9,
+      "example_quotes": [
+        "You have to get a supscription to pick a song and then it plays the most horrible songs you’ve ever listen to in your life",
+        "It’s ok, you can listen to music until it won’t let you pick what song you listen to at all and it gets super annoying",
+        "The music player on my phone completely breaks whenever I listen to discover weekly. Ads pop up that block the album cover."
+      ],
+      "segment_breakdown": {
+        "long-time user": 8,
+        "premium user": 4,
+        "free tier user": 3,
+        "Android user": 1,
+        "new user": 1,
+        "Spotify user": 1
+      },
+      "raw_labels": [
+        "App crashes during album playback",
+        "App struggles with song playback",
+        "Background music not free",
+        "DJ function starts with same songs",
+        "Hidden audiobook feature",
+        "Limited playback controls",
+        "Limited skips, no song order control",
+        "Missing listening stats",
+        "Music blocking issue",
+        "Music grey, phone lags",
+        "Musical Paralysis",
+        "Not using Spotify premium",
+        "Poor Apple Music app",
+        "Scams on Spotify",
+        "Spotify crashes",
+        "Spotify design changed",
+        "Spotify down for some",
+        "Spotify goes blank randomly",
+        "Spotify not loading",
+        "Spotify not working",
+        "Subscription required for song selection",
+        "annoying music selection",
+        "commenting on podcast episodes",
+        "delayed song addition",
+        "inadequate commercial-free listening",
+        "interrupted music selection",
+        "lagging playback",
+        "lost listening stats",
+        "lyrics don't sync perfectly",
+        "lyrics page not staying",
+        "music player breaks",
+        "random song playback",
+        "random song playing",
+        "skip song limitation",
+        "skip song limitations",
+        "song app quality",
+        "song change limit",
+        "song restarts",
+        "song selection limit",
+        "song stops unexpectedly",
+        "song transitions",
+        "unreliable playback",
+        "unwanted podcast switching"
+      ]
+    },
+    {
+      "theme": "app bugs and broken features",
+      "cluster_id": 7,
+      "count": 43,
+      "pct_of_field": 12.0,
+      "example_quotes": [
+        "it's lagging, I'm annoyed, can't like song anymore or add to playlist, bunch of problems, i should rate 3 stars but I'm annoyed",
+        "bad they killed the scrolling feature of Spotify now u can't scroll through your liked songs and cannot change genre during scrolling",
+        "Just downloaded after uninstalling app and can't find a connection. Checked my system and WiFi has service."
+      ],
+      "segment_breakdown": {
+        "long-time user": 10,
+        "premium user": 5,
+        "free tier user": 1,
+        "repeatedly charged customer": 1,
+        "rejected person": 1
+      },
+      "raw_labels": [
+        "Auto-renewal issues",
+        "Cache size issue",
+        "Can't remove unwanted content",
+        "Download doesn't work",
+        "Glitchy performance",
+        "Got rejected",
+        "Lack of release date info",
+        "Limited mobile experience",
+        "Loading issues and poor support",
+        "Lost reading progress",
+        "Multiple device installation",
+        "Offline issues",
+        "Privacy settings issue",
+        "Widgets changed for no reason",
+        "account banned",
+        "account changes not working",
+        "awful company practices",
+        "broken offline features",
+        "bug reporting difficulty",
+        "can't delete library items",
+        "connection issues",
+        "crossfades too abrupt",
+        "interface and reliability",
+        "lagging and functionality issues",
+        "limited facilities",
+        "login issues",
+        "login screen not visible",
+        "lost scrolling feature",
+        "missing clip function",
+        "missing dark mode",
+        "new update issues",
+        "password deletion",
+        "poor user experience",
+        "removed dislike button",
+        "repeated unauthorized charges",
+        "security issues",
+        "service not working",
+        "slow loading, frequent glitches",
+        "slow servers",
+        "uncontrollable player",
+        "update issues",
+        "widget performance",
+        "widget refresh issues"
+      ]
+    },
+    {
+      "theme": "App crashes and freezes",
+      "cluster_id": 2,
+      "count": 26,
+      "pct_of_field": 7.3,
+      "example_quotes": [
+        "The mobile version of Spotify is heavily paywalled, I'll never buy premium. I miss Google Play Music...",
+        "Paying for Premium can't even open the app of my phone all day even tried through my Maps app and it's literally black screen nothing happens",
+        "Updates have been causing app functionality issues, there are no longer song times on playlist."
+      ],
+      "segment_breakdown": {
+        "long-time user": 6,
+        "premium user": 2,
+        "Android user": 1,
+        "phone user": 1,
+        "Samsung Galaxy S10 user": 1,
+        "genre enthusiast": 1
+      },
+      "raw_labels": [
+        "App becomes unusable after updates",
+        "App crashes and freezes",
+        "App crashes and loads slowly",
+        "App crashes and reload issues",
+        "App crashes and slow loading",
+        "App crashes on logo page",
+        "App crashes or freezes",
+        "App freezes and crashes",
+        "App functionality issues",
+        "App keeps disappearing",
+        "App keeps turning off",
+        "App not responding",
+        "App removal from App Store",
+        "Changes to the app",
+        "Restrictive app features",
+        "app crashes on Samsung Galaxy S10",
+        "app functionality",
+        "app performance issues",
+        "app stopped working",
+        "app wont start",
+        "bad app experience",
+        "loading animation on iPhone",
+        "paywalls in mobile app",
+        "too many apps",
+        "unwanted app launch"
+      ]
+    },
+    {
+      "theme": "playlist management issues",
+      "cluster_id": 3,
+      "count": 24,
+      "pct_of_field": 6.7,
+      "example_quotes": [
+        "drop your rock playlist\n\nThis post was mass deleted and anonymized with Redact pie saw airport kiss rhythm door light ten reply hat [link] [comments]",
+        "they have too much apps and when I Wana only listen to one single song it makes me listen to a full playlist before the song I want comes on the playlist",
+        "Why is smart playlist forced for mobile unless you have premium it’s stupid?"
+      ],
+      "segment_breakdown": {
+        "long-time user": 5,
+        "new user": 3,
+        "free tier user": 2,
+        "music enthusiast": 2,
+        "premium user": 1,
+        "conservative user": 1,
+        "playlist curator": 1,
+        "student": 1,
+        "casual user": 1
+      },
+      "raw_labels": [
+        "Disorganized playlists",
+        "Forced playlist songs",
+        "Lack of playlist curators",
+        "Playlist not remembered",
+        "Spotify won't play playlists",
+        "Too many playlists",
+        "Widget play button not working",
+        "adding songs to playlists",
+        "bored with playlists",
+        "can't update playlists",
+        "custom playlist sorting",
+        "deciding what to remove from playlists",
+        "forced full playlist",
+        "forced smart playlist on mobile",
+        "getting tired of playlist",
+        "lost playlist",
+        "messy playlists",
+        "organizing playlists",
+        "playlist deleted",
+        "playlist manipulation",
+        "playlist size limit",
+        "repetitive playlist",
+        "repetitive playlists",
+        "unsatisfying playlists"
+      ]
+    },
+    {
+      "theme": "subscription pricing complaints",
+      "cluster_id": 9,
+      "count": 22,
+      "pct_of_field": 6.2,
+      "example_quotes": [
+        "1 month free subscription is just a scam. after i inserted my visa card they asked for 2$ for subscription which was meant to be free.",
+        "It’s impossible to use the free version, it’s 2 minute ads, you can’t choose what song you want to listen to, you can’t even choose what album.",
+        "So the reason I put it at 1 status because they took everything away from free Spotify and if you want to listen to dif song you have to PAY! So 1 star"
+      ],
+      "segment_breakdown": {
+        "free tier user": 6,
+        "long-time user": 2,
+        "premium user": 1,
+        "artist / musician": 1
+      },
+      "raw_labels": [
+        "Cost of commercial free music",
+        "Expensive subscription",
+        "Forced payment for control",
+        "Free subscription limitations",
+        "Free trial duration",
+        "High subscription price",
+        "Limited free features",
+        "Limited free version features",
+        "Misleading subscription",
+        "Unnecessary feature cost",
+        "ads and subscription fees",
+        "charged for free subscription",
+        "forced payment for features",
+        "free version sucks",
+        "inconvenient free version",
+        "no audiobooks in paid package",
+        "no free downloads",
+        "price",
+        "price hike",
+        "price increase",
+        "renewal hassle",
+        "subscription loss"
+      ]
+    },
+    {
+      "theme": "premium limitations",
+      "cluster_id": 4,
+      "count": 22,
+      "pct_of_field": 6.2,
+      "example_quotes": [
+        "You're becoming very annoying so because one cannot afford premium he or she can play the songs with their data👿😠",
+        "bhai sb kuch tho thik hai lekin yeh baat baat pe premium leneke baad hi gaane sun skte ho like wth hell brooo 🥀🥀",
+        "The app is good but it keeps trying to make me use premium and messing up my songs so I have to"
+      ],
+      "segment_breakdown": {
+        "free tier user": 4,
+        "premium user": 3
+      },
+      "raw_labels": [
+        "6 skips per hour limit",
+        "Cannot afford premium",
+        "Forced premium purchases",
+        "Limited skips on free tier",
+        "Lyrics limits for premium",
+        "No free premium",
+        "No premium",
+        "No rewind for non-premium",
+        "Not good without premium",
+        "Not worth premium",
+        "Premium runs out",
+        "adds and skips",
+        "everything needs premium",
+        "forced premium",
+        "forced premium feature",
+        "login issues after premium",
+        "no premium skip/forward",
+        "premium limitations",
+        "premium required for good experience",
+        "premium required to listen",
+        "premium upselling"
+      ]
+    },
+    {
+      "theme": "AI and algorithm dissatisfaction",
+      "cluster_id": 1,
+      "count": 18,
+      "pct_of_field": 5.0,
+      "example_quotes": [
+        "The algorithm is so bad now. You will not find anything but repeats or old  stuff. Nothing new especially podcast.  The OVERUSED .",
+        "What else is there to say? Spotify exploits artists, tries to push AI slop, and supports genocide. It’s gross.",
+        "Spotify is the best music streaming app by far, but the incorporation in AI has made it disgusting slop."
+      ],
+      "segment_breakdown": {
+        "long-time user": 5,
+        "free tier user": 2,
+        "artist / musician": 1
+      },
+      "raw_labels": [
+        "AI algo fails to remove disliked content",
+        "AI artists in Discover Weekly",
+        "AI incorporation issues",
+        "AI integration in artist app",
+        "AI production on platform",
+        "Generic AI artists cluttering",
+        "Insult among friends",
+        "Too much AI",
+        "Wrapped is a mess",
+        "adds ruin the mood",
+        "aid is boring",
+        "algorithm issues",
+        "algorithmic stagnation",
+        "anuncios",
+        "demonetization of artists",
+        "exploits artists",
+        "organisation",
+        "ไม่ขึ้นเพลงที่ชอบ"
+      ]
+    },
+    {
+      "theme": "repetitive recommendations",
+      "cluster_id": 8,
+      "count": 18,
+      "pct_of_field": 5.0,
+      "example_quotes": [
+        "Spotify has failed to shuffle my music. Lately it plays the same songs over and over again. Discover music is trash. All their music is AI now. Unsubscribing",
+        "I have a ton of songs on my playlist, but it doesn’t shuffle through all the songs",
+        "I love Spotify, the one thing that needs work though is that shuffle ends up playing the same songs after a little bit instead of going through the whole list."
+      ],
+      "segment_breakdown": {
+        "long-time user": 10,
+        "music genre fan": 1
+      },
+      "raw_labels": [
+        "Paying for repeat songs",
+        "Random playlist repetition",
+        "Shuffle algorithm is bad",
+        "Shuffle repeats songs",
+        "Spotify shuffles poorly",
+        "algorithmic repetition",
+        "bored with repeat songs",
+        "incomplete shuffle",
+        "repetitive recommendations",
+        "repetitive song shuffle",
+        "same tracks every week",
+        "shuffle issues",
+        "shuffle not working",
+        "shuffle option is garbage",
+        "shuffle problem",
+        "song repetition",
+        "song shuffle repetition"
+      ]
+    }
+  ],
+  "user_goal_themes": [
+    {
+      "theme": "discover new music",
+      "cluster_id": 4,
+      "count": 92,
+      "pct_of_field": 24.7,
+      "example_quotes": [
+        "I love it very much but i want to pick out the songs without having to worry about the app saying pay for picking songs",
+        "You have to get a supscription to pick a song and then it plays the most horrible songs you’ve ever listen to in your life",
+        "I’ve used Spotify for so long that I cannot even remember. Highly recommend to anyone looking for a great music streaming service"
+      ],
+      "segment_breakdown": {
+        "long-time user": 22,
+        "music enthusiast": 16,
+        "genre enthusiast": 7,
+        "new user": 7,
+        "free tier user": 6,
+        "music discoverer": 3,
+        "premium user": 2,
+        "language learner": 1,
+        "developer": 1,
+        "heavy user": 1,
+        "open to suggestions": 1,
+        "Meshuggah fan": 1,
+        "accessibility / mental health user": 1
+      },
+      "raw_labels": [
+        "Choose music freely",
+        "Choose own songs",
+        "Discover new music",
+        "Good song suggestions",
+        "choose best music app",
+        "choose own songs",
+        "curate music sets",
+        "discover new albums/bands",
+        "discover new artists",
+        "discover new metal music",
+        "discover new music",
+        "discover new music for road trip",
+        "discover new music from around the world",
+        "discover new songs",
+        "discover new songs or artists",
+        "discover new songs/artists",
+        "dream pop recommendations",
+        "expand music taste",
+        "explore new music genres",
+        "find good music",
+        "find great music streaming service",
+        "find heavy band with clean singer",
+        "find indie artists for playlist",
+        "find more rock and metal female artists",
+        "find music I really like",
+        "find new Spotify friends",
+        "find new artists to love",
+        "find new good songs",
+        "find new music",
+        "find new music recommendations",
+        "find new music suggestions",
+        "find new music to feel something",
+        "find new music to like",
+        "find new music to listen to",
+        "find new music/artists",
+        "find new songs",
+        "find underrated albums to listen to",
+        "find underrated band/artist",
+        "get female-rock recommendations",
+        "get good quality music",
+        "get metal song suggestions",
+        "get new music",
+        "get new music recommendations",
+        "get new song recommendations",
+        "get relevant music suggestions",
+        "get song recommendations",
+        "get song suggestions",
+        "get variety in music",
+        "hear liked songs",
+        "hear new songs",
+        "help upcoming artists get discovered",
+        "non-english song recommendations",
+        "non-mainstream thrash recommendations",
+        "organize music by genre",
+        "pick a song",
+        "pick songs and have DJ",
+        "pick songs without cost",
+        "song recommendations",
+        "understand music taste profile"
+      ]
+    },
+    {
+      "theme": "listen to music",
+      "cluster_id": 7,
+      "count": 72,
+      "pct_of_field": 19.4,
+      "example_quotes": [
+        "It’s really cool to pick my favorite songs and not have to buy to skip the songs! I really enjoy listening to Spotify!",
+        "the app is really good but recently my \"listening stats\" have vanished and i can't see my top songs or how much i've listened to.",
+        "nice app for music I personally think downloading music is better but it's still great for getting quick music"
+      ],
+      "segment_breakdown": {
+        "long-time user": 21,
+        "free tier user": 11,
+        "premium user": 7,
+        "student": 2,
+        "new user": 2,
+        "genre enthusiast": 2,
+        "Samsung Galaxy S10 user": 1,
+        "music enthusiast": 1,
+        "iOS user": 1,
+        "artist / musician": 1,
+        "playlist curator": 1
+      },
+      "raw_labels": [
+        "Choose specific songs to listen to",
+        "Convenience while listening",
+        "Enjoy high-quality music playback",
+        "Listen to music",
+        "Listen to music without interruptions",
+        "Listen to music without issues",
+        "Unrestricted music listening",
+        "View listening stats",
+        "access to music anywhere",
+        "avoid AI music",
+        "avoid repetitive music",
+        "control over listening",
+        "enjoy good music experience",
+        "enjoy music without overthinking",
+        "faster music access",
+        "get into frequent music listening",
+        "getting quick music",
+        "hear all music in a different order",
+        "hear different songs",
+        "hear music",
+        "learn French with music",
+        "listen favorite songs",
+        "listen to Indian music",
+        "listen to a podcast",
+        "listen to a radio-like experience",
+        "listen to a song again",
+        "listen to album without skips",
+        "listen to authentic music",
+        "listen to chosen music",
+        "listen to consecutive episodes",
+        "listen to country music",
+        "listen to different genres",
+        "listen to different songs",
+        "listen to diverse albums",
+        "listen to diverse content",
+        "listen to entire discography",
+        "listen to favorite music for free",
+        "listen to favorite songs",
+        "listen to full discographies",
+        "listen to loved music",
+        "listen to music",
+        "listen to music and dance",
+        "listen to music before sleep",
+        "listen to music on demand",
+        "listen to music peacefully",
+        "listen to music while studying",
+        "listen to old-school Dance",
+        "listen to preferred songs",
+        "listen to single song",
+        "listen to songs",
+        "listen to songs in any order",
+        "listen to songs in order",
+        "listen to specific music",
+        "listen to specific parts of songs",
+        "listen to varied music",
+        "listen to whatever I want",
+        "music listening",
+        "play all music",
+        "play music freely",
+        "share music with others",
+        "smooth music listening on phones",
+        "smooth music playback",
+        "start listening to jazz",
+        "track listening history"
+      ]
+    },
+    {
+      "theme": "add songs to playlist",
+      "cluster_id": 5,
+      "count": 59,
+      "pct_of_field": 15.9,
+      "example_quotes": [
+        "I really like the Prompt playlist feature, but it would be good to make some playlists with more than 100 songs.",
+        "I have a ton of songs on my playlist, but it doesn’t shuffle through all the songs",
+        "I love Spotify, the one thing that needs work though is that shuffle ends up playing the same songs after a little bit instead of going through the whole list."
+      ],
+      "segment_breakdown": {
+        "long-time user": 12,
+        "new user": 6,
+        "music enthusiast": 5,
+        "playlist curator": 3,
+        "student": 3,
+        "premium user": 2,
+        "free tier user": 1,
+        "Gen Z user": 1,
+        "parent / family user": 1,
+        "user seeking recommendations": 1,
+        "music genre fan": 1,
+        "coffee shop owner": 1,
+        "accessibility / mental health user": 1,
+        "Spotify user": 1,
+        "genre enthusiast": 1
+      },
+      "raw_labels": [
+        "Find complete Eurovision 2024 playlist",
+        "Find like-minded playlist creators",
+        "Reduce number of playlists",
+        "Select a song in playlist",
+        "add songs to playlist",
+        "add songs to playlists",
+        "build a playlist for a sick teenager",
+        "compile playlist of songs about 17",
+        "create a Spotify playlist without guest control",
+        "create a chill preparty playlist",
+        "create a collaborative playlist",
+        "create a main playlist",
+        "create a playlist",
+        "create good playlists",
+        "create playlist about being 19",
+        "create playlist for crush",
+        "create playlist for motivation",
+        "create playlist of lesser-known 60s hits",
+        "create random playlist",
+        "create relaxing playlist",
+        "create romantic playlist",
+        "create specific playlists",
+        "create ultimate rock playlist",
+        "curate a jazz playlist",
+        "customised playlist generation",
+        "determine best way to manage playlists",
+        "enjoy playlists and podcasts",
+        "find a long car ride playlist",
+        "find best all-round playlist",
+        "find best playlist curators",
+        "find more songs for playlist",
+        "find new music through playlists",
+        "find new music to add to playlist",
+        "find new playlists",
+        "find playlist organization method",
+        "find playlists for coffee shop",
+        "find pump up playlist",
+        "find songs for playlist",
+        "find woke playlist",
+        "fresh playlists",
+        "get punk playlists",
+        "get real love for playlists",
+        "hear all playlist songs",
+        "listen to downloaded playlists offline",
+        "listen to longer playlists",
+        "listen to own playlist",
+        "listen to whole playlist",
+        "make playlist with someone",
+        "make playlists",
+        "max out playlist",
+        "organise playlists",
+        "organize songs for playlists",
+        "rate songs, categorize playlists",
+        "refresh playlist with new songs",
+        "see curated playlists",
+        "smooth playlist experience",
+        "true random playlist",
+        "update favorite playlists"
+      ]
+    },
+    {
+      "theme": "find song suggestions",
+      "cluster_id": 0,
+      "count": 58,
+      "pct_of_field": 15.6,
+      "example_quotes": [
+        "Need some amazing concept albums that will throw me for a loop\n\nsubmitted by /u/50shadesofmist [link] [comments]",
+        "bad they killed the scrolling feature of Spotify now u can't scroll through your liked songs and cannot change genre during scrolling",
+        "Best song to listen to with a cup of coffee in the morning?\n\nsubmitted by /u/Usernamefut [link] [comments]"
+      ],
+      "segment_breakdown": {
+        "music enthusiast": 7,
+        "long-time user": 5,
+        "new user": 4,
+        "genre enthusiast": 3,
+        "free tier user": 2,
+        "premium user": 1,
+        "Spotify user": 1,
+        "music promoter": 1,
+        "music taste changed": 1,
+        "new romantic interest": 1,
+        "fan of 70s/80s/90s pop/rock": 1,
+        "karaoke singers": 1,
+        "Eurovision fan": 1,
+        "musical fan": 1,
+        "new album fan": 1
+      },
+      "raw_labels": [
+        "Find specific song",
+        "Repeat songs without paying",
+        "add to song library",
+        "build all female music list",
+        "choose specific song",
+        "collect favourite songs from users",
+        "create top 5 song list",
+        "discover non-English songs",
+        "find 70's songs",
+        "find Batman-themed songs",
+        "find RnB & Soul songs",
+        "find all music and podcasts",
+        "find any song",
+        "find cohesive narrative albums",
+        "find common knowledge songs",
+        "find concept albums",
+        "find energizing running songs",
+        "find female led acts",
+        "find fitting music for a rainy night",
+        "find good unknown songs",
+        "find graduation song",
+        "find hidden gems from 70s/80s/90s",
+        "find lesser known songs",
+        "find love songs",
+        "find love songs by female artists",
+        "find more songs like this",
+        "find morning coffee song",
+        "find most addictive song",
+        "find music for Fall season",
+        "find music for movies",
+        "find music that resonates",
+        "find music to fix problems",
+        "find music to relate to",
+        "find musical story songs",
+        "find new Halloween party songs",
+        "find new folk pop songs",
+        "find non-romantic karaoke songs",
+        "find old skool hip hop",
+        "find similar songs",
+        "find soft catchy songs",
+        "find song about love as sin",
+        "find song for fast attraction",
+        "find song suggestions",
+        "find song with name Rose",
+        "find songs about being 19",
+        "find songs with horn section",
+        "find unique music that gives endorphin high",
+        "find unusual prog rock",
+        "find weird music",
+        "find workout music suggestions",
+        "human-like music discovery",
+        "manage liked songs",
+        "organizing music for group fitness classes",
+        "organizing personal memories through music",
+        "scroll through liked songs",
+        "search and play free songs",
+        "skip/forward songs"
+      ]
+    },
+    {
+      "theme": "emotion/mood-driven music seeking",
+      "cluster_id": 6,
+      "count": 32,
+      "pct_of_field": 8.6,
+      "example_quotes": [
+        "I need a good cry\n\nCan you recommend me any songs that help with this? I'm open to anything :) submitted by /u/Limp-Ambassador2127 [link] [comments]",
+        "Pure unadulterated rage\n\nI need songs for when you’re just angry about anything and everything. submitted by /u/Miserable-Treat4360 [link] [comments]",
+        "What are some sad songs with violin in it?\n\nMy favorite songs have violin in them and I'm trying to find more submitted by /u/AdditionalPop6584 [link] [comments]"
+      ],
+      "segment_breakdown": {
+        "music enthusiast": 6,
+        "new user": 4,
+        "accessibility / mental health user": 3,
+        "long-time user": 2,
+        "senior user": 1,
+        "hopeless romantic": 1,
+        "rejected person": 1,
+        "parent / family user": 1,
+        "looking for positive music": 1
+      },
+      "raw_labels": [
+        "Find music to ease depression",
+        "be able to dislike songs",
+        "create sad song playlist",
+        "discover new sad songs",
+        "find 2010s nostalgia songs",
+        "find a happy song",
+        "find a regretful song",
+        "find angry music",
+        "find calming songs",
+        "find calming songs for walks",
+        "find emotional connection through music",
+        "find happier music",
+        "find happy songs",
+        "find melancholic songs",
+        "find nostalgic summer songs",
+        "find relatable but not sad songs",
+        "find sad and chill songs",
+        "find sad music suggestions",
+        "find sad songs with long titles",
+        "find sad songs with violin",
+        "find songs about family issues",
+        "find songs about grief",
+        "find songs for emotional release",
+        "find songs that make them cry",
+        "find subtly happy songs",
+        "find uplifting songs",
+        "get song suggestions for hopeless romantic",
+        "learn lullabies to sing to child",
+        "listen to nostalgic songs",
+        "sad music recommendations",
+        "share emotional journey through music",
+        "upbeat songs with dark lyrics"
+      ]
+    },
+    {
+      "theme": "ambient / background listening",
+      "cluster_id": 1,
+      "count": 27,
+      "pct_of_field": 7.3,
+      "example_quotes": [
+        "the bestest app in my phone it is my cofort zone but to much ads make me irritated but nothing else is bad",
+        "What song motivates you to get things done?\n\nsubmitted by /u/Usernamefut [link] [comments]",
+        "oh boy, another inexplicable price hike in a very short time. it'll be 2 stars next time. when I hit zero I stop using your app after 10 years of daily use."
+      ],
+      "segment_breakdown": {
+        "long-time user": 7,
+        "premium user": 4,
+        "free tier user": 2,
+        "DJ / music producer": 1,
+        "artist / musician": 1,
+        "casual user": 1,
+        "writer, DnD player": 1
+      },
+      "raw_labels": [
+        "Background noise while gaming",
+        "Convenient app experience",
+        "Customize content display",
+        "Insult friends openly",
+        "Save money on audiobooks",
+        "Track reading progress",
+        "Use the app reliably",
+        "access to audiobooks",
+        "avoid boring trip",
+        "comment on podcast episodes",
+        "continue using app",
+        "create a smooth mix",
+        "create time capsules",
+        "decompress",
+        "find best EQ settings",
+        "get things done",
+        "hear characters while writing",
+        "keep 4x1 format",
+        "listen to transitions in HADES",
+        "make mix sound good",
+        "relaxation",
+        "relaxation/leisure time",
+        "show gratitude",
+        "smooth app experience",
+        "stay focused while studying",
+        "understand new streaming rules",
+        "หาเพลงที่ดี"
+      ]
+    },
+    {
+      "theme": "listen to music without ads",
+      "cluster_id": 3,
+      "count": 23,
+      "pct_of_field": 6.2,
+      "example_quotes": [
+        "standard is not that bad.. it's just the ads that keep bothering. Premium is great, Spotify has superior sound quality.",
+        "Spotify plays music in the background of other apps and plays music when I turn off my phone without buying premium.",
+        "The ads I am getting (even on podcasts, not just music) are just annoying. You must remove all ads and just let me listen to my podcasts and music."
+      ],
+      "segment_breakdown": {
+        "free tier user": 9,
+        "premium user": 5,
+        "long-time user": 3,
+        "podcast listener": 1
+      },
+      "raw_labels": [
+        "Affordable music subscription",
+        "Listen to music without ads",
+        "ad-free listening",
+        "ad-free listening experience",
+        "ad-free music experience",
+        "avoid ads",
+        "commercial-free listening",
+        "enjoy commercial free music",
+        "enjoy music without ads",
+        "hear songs without paying",
+        "listen ad-free",
+        "listen to music without ads",
+        "listen to music without premium",
+        "listen to songs without ads",
+        "listen without ads"
+      ]
+    },
+    {
+      "theme": "basic feature expectations",
+      "cluster_id": 2,
+      "count": 9,
+      "pct_of_field": 2.4,
+      "example_quotes": [
+        "The mobile version of Spotify is heavily paywalled, I'll never buy premium. I miss Google Play Music...",
+        "The app itself is good, but I hate how after every one song 3 adds appear. And no, im not planning on buying Spotify premium, because i can't afford it.",
+        "I’m baffled as to why you cannot rewind songs or go back in a playlist without having premium. I feel as though that should be a feature by default? the app is fine otherwise."
+      ],
+      "segment_breakdown": {
+        "premium user": 3,
+        "Spotify user": 2,
+        "long-time user": 1,
+        "free tier user": 1
+      },
+      "raw_labels": [
+        "Expect default features",
+        "Get free premium",
+        "Protect account from scams",
+        "Use free trial",
+        "avoid premium cost",
+        "avoid premium subscription",
+        "continue using premium service",
+        "determine if Spotify premium is worth the money",
+        "upgrade to premium"
+      ]
+    }
+  ],
+  "segment_themes": [
+    {
+      "segment": "long-time user",
+      "count": 92,
+      "pct_of_segments": 31.0,
+      "example_quotes": [
+        "okay i’ve been using spotify for 3years and it’s great it has all the songs u could think of. it’s great try it out pleaseeee",
+        "I’ve used Spotify for so long that I cannot even remember. Highly recommend to anyone looking for a great music streaming service",
+        "This app has been my go to for music since 2010 and that saying something. If anybody has the time to listen to music this is the app.👍🏽"
+      ],
+      "raw_labels": [
+        "former Google Play Music user",
+        "lifetime customer",
+        "long-time Spotify user",
+        "long-time customer",
+        "long-time fan",
+        "long-time music fan",
+        "long-time music listener",
+        "long-time music lover",
+        "long-time rap fan",
+        "long-time subscriber",
+        "long-time user"
+      ]
+    },
+    {
+      "segment": "music enthusiast",
+      "count": 36,
+      "pct_of_segments": 12.1,
+      "example_quotes": [
+        "Narrow music taste\n\nHelp me get some variety, after hearing Green Day and blink-182, other music feels too slow. I love rap and a bit of pop so that'd be helpful but now I'd get so bored ;-; [link] [comments]",
+        "Female list\n\nLooking to build an all female list. I have artist like Fleetwood Mac, Mazzy Star, Evenesnce, Eve, No Doubt, Janet Jackson and En Vogue. What else do you enjoy with a female singer? submitted by /u/Dierks_Ford [link] [comments]",
+        "I desperately NEED NEW MUSIC!!\n\nI have been listening to the same songs for some time and keep getting bored of them so I’d rather scroll instead which I do not want to. The genres I listen to are american rap, chill rap and r&b. submitted by /u/nohypejj [link] [comments]"
+      ],
+      "raw_labels": [
+        "Indian music fan",
+        "goth music fan",
+        "music discovery enthusiast",
+        "music enthusiast",
+        "music fan",
+        "music fan with specific tastes",
+        "music lover",
+        "music obsessed individual",
+        "new music fan",
+        "teenage music fan",
+        "young adult music fan"
+      ]
+    },
+    {
+      "segment": "free tier user",
+      "count": 34,
+      "pct_of_segments": 11.4,
+      "example_quotes": [
+        "Spotify plays music in the background of other apps and plays music when I turn off my phone without buying premium.",
+        "I LOVE THE FREE ALGORITHM, IT FEELS LIKE COMMUNICATION, the subscription feels like it dulling my mind with the same old NEW SlOp.",
+        "It does give high quality music but treats you like trash if you don’t have premium. I can’t even go 1-2 songs without a two minute ad"
+      ],
+      "raw_labels": [
+        "free Spotify user",
+        "free tier user",
+        "free trial user",
+        "free user"
+      ]
+    },
+    {
+      "segment": "premium user",
+      "count": 30,
+      "pct_of_segments": 10.1,
+      "example_quotes": [
+        "It's good now I prefer this over prime music. I regularly use it now previously Spotify was limited for non pro users way too much now it's good.",
+        "The app itself is good, but I hate how after every one song 3 adds appear. And no, im not planning on buying Spotify premium, because i can't afford it.",
+        "Amazing app just wish that non premium people didn’t have so many adds and could pick songs more and have the DJ but I love Spotify premium so much better"
+      ],
+      "raw_labels": [
+        "Spotify premium user",
+        "can't afford premium",
+        "non pro user",
+        "paid subscriber",
+        "paying user",
+        "premium considering user",
+        "premium plan subscriber",
+        "premium plan user",
+        "premium subscriber",
+        "premium tier consideration",
+        "premium user",
+        "pro user"
+      ]
+    },
+    {
+      "segment": "new user",
+      "count": 23,
+      "pct_of_segments": 7.7,
+      "example_quotes": [
+        "Songs for a playlist for this girl I’m crushing on rn\n\nOpen to whatever really I don’t have anything in mind like vibe or genres submitted by /u/WhiteChocolate907 [link] [comments]",
+        "made my first account and when I start to play it, suddenly a random song plays instead, Spotify, please stop this with new accounts! especially ones who don't know how to stop those random song playing",
+        "Reccomend songs chill and sad\n\nHii Could you all please recommend me songs that are sad i love that kind of songs and i want it to be chill also!! Thank youu🫶🏻 submitted by /u/hihihimayoyoyo [link] [comments]"
+      ],
+      "raw_labels": [
+        "new user",
+        "new user seeking emotional connection"
+      ]
+    },
+    {
+      "segment": "genre enthusiast",
+      "count": 13,
+      "pct_of_segments": 4.4,
+      "example_quotes": [
+        "Looking for old skool hip hop\n\nI love hip hop from the 80s and 90s, can I get some suggestions submitted by /u/ExpectDragons [link] [comments]",
+        "Need New Song Recommendations\n\nIm really liking listening to pantera, megadeth, slayer, lamb of god, and stuff like that. Any songs that you guys can recommend me to listen to? submitted by /u/Classic_Ad8455 [link] [comments]",
+        "Let it go - indie, vintage soul, dreams vibes\n\nhttps://open.spotify.com/playlist/4zWYAtsXvypMpDtZvDJmJs?si=8sQ3zKaQSJiIIMkuxMm1Wg Please suggest more songs like this im obsessed submitted by /u/myloveismineohmine [link] [comments]"
+      ],
+      "raw_labels": [
+        "Ska/Punk/rock fan",
+        "country music fan",
+        "hip hop fan",
+        "indie music fan",
+        "jazz music fan",
+        "metal music fan",
+        "pop music fan",
+        "prog rock fan",
+        "rock music fan"
+      ]
+    },
+    {
+      "segment": "Spotify user",
+      "count": 7,
+      "pct_of_segments": 2.4,
+      "example_quotes": [
+        "Is Spotify premium worth the money?\n\nTitle Edit: people are saying \"i hate ads after every 2-3 songs. I have no idea why but I get 30 seconds ads after like, 8 or 10 songs. I don't have premium not any mod or something. Just pure vanilla Spotify from playstore and still no ads fo",
+        "Does anyone know the background music on Spotify Wrapped 2025?\n\nHey everyone! I’m going crazy trying to find the track that plays at the end of Spotify Wrapped 2025, you know, on the page where you can choose to review specific slides. It’s a pretty chill, kind of house track wit",
+        "Someone wants to buy my Spotify playlist\n\nHey everyone. Someone hit me up on Spotify and asked to buy my Spotify account. I'll put a screenshot of his account in the comments. I have a playlist with over 23k followers so they are interested in that. I told them that I wasn't inte"
+      ],
+      "raw_labels": [
+        "Spotify executive",
+        "Spotify user",
+        "Spotify user with large following",
+        "Spotify user, venue manager",
+        "vanilla Spotify user"
+      ]
+    },
+    {
+      "segment": "student",
+      "count": 6,
+      "pct_of_segments": 2.0,
+      "example_quotes": [
+        "if you buy any kind of premium you're good to go. Especially If you have a habit of listening to music while studying like me then just get student premium",
+        "Great free music with Student Discount, Walmart and Sam’s Plus",
+        "female college student looking for pump up playlist on the way to my internship\n\nkinda getting tired of my playlist. I love lady gaga, beyonce, doechii, really anything that hypes me up submitted by /u/toryisbae [link] [comments]"
+      ],
+      "raw_labels": [
+        "GCSE student",
+        "female college student",
+        "rising college student",
+        "student"
+      ]
+    },
+    {
+      "segment": "accessibility / mental health user",
+      "count": 5,
+      "pct_of_segments": 1.7,
+      "example_quotes": [
+        "What song brought you out of your deepest, darkest thoughts?\n\nWhat song brought you out of depression? Can you share what it was (a song, artist, album, or playlist) and why? I heal better with music, but I now blindly go through songs and cannot find any that can ease my soul. Y",
+        "Song suggestions?!\n\nI find it difficult to listen to new music because of my ADHD, but I want to learn new music. Im also going on a road trip in a few months and want to make a giant playlist. I like pretty much everything but I prefer trap metal, rock, indie, pop rock, indie ro",
+        "I need some more calming songs\n\nHello! I have very bad anxiety. Listening to music helps me calm down quite a bit. I have made a calming playlist already. I need some songs that are calming. Preferably slower songs in Russian, English, German, or Finnish. My playlist is around 3"
+      ],
+      "raw_labels": [
+        "ADHD user",
+        "anxiety sufferer",
+        "depression listener",
+        "person with depression"
+      ]
+    },
+    {
+      "segment": "playlist curator",
+      "count": 4,
+      "pct_of_segments": 1.3,
+      "example_quotes": [
+        "Any lost-to-time Flower Power hits?\n\nIm creating a playlist of 60s songs that the newer generation would be interested to hear. I'm talking major 60s hits that people these days just haven't heard of. Next Plane To London by the Rose Garden comes to mind. Any suggestions? submitt",
+        "Any songs whose first minute is odd or silent in relation to the rest of the song, impelling you to check what's playing each time?\n\nIt's for my playlist. https://open.spotify.com/playlist/4EvttpwBjfEZrKJJO9SFS9?si=afcce5c4da0e44aa I already have nine songs in it that fit the req",
+        "Nothing but the best of 90's dance floor Classics\n\nHey, everyone. I’ve curated a 7+ hour playlist of pure classic Dance hits, no fillers, just the tracks that defined the genre. If you’re into old-school Dance, give it a listen. If you like it, please save it to your library and"
+      ],
+      "raw_labels": [
+        "avid playlist maker",
+        "curator of 90's dance playlist",
+        "music curator",
+        "playlist creator"
+      ]
+    },
+    {
+      "segment": "Android user",
+      "count": 3,
+      "pct_of_segments": 1.0,
+      "example_quotes": [
+        "new android feature\n\nI love what they've done on android. Now, when I go to edit the order of a playlist, I can see the thumbnails! Yes! [link] [comments]",
+        "On Premium and app keeps turning off by itself. Super buggy on Android. Performance and reliability significantly lowered due to adding a bunch of new features nobody asked for.",
+        "Very buggy, plays when unprompted, pauses or crashes when unprompted, etc. (Android version) Absolutely not worth what they're charging. I'm convinced they've replaced all their Swedish developers with Indians. Alternatives preferred."
+      ],
+      "raw_labels": [
+        "Android user",
+        "android user"
+      ]
+    },
+    {
+      "segment": "artist / musician",
+      "count": 3,
+      "pct_of_segments": 1.0,
+      "example_quotes": [
+        "so let me start of by saying that spotify premium is one of the best gifts ive ever gotten. im a huge music fan and musician who spends lots of time listening to albums, playlists, and more. spotify premium gives you access to everything when you want it and where you want it. bu",
+        "Jazz pianist Jason Moran just found a fake generated EP on his official Spotify profile. It was indie-pop. His response: \"There is not even a piano player on this whole record.\" Spotify removed 75 million spam tracks last year. It is not enough.\n\nDigital Music News reported this",
+        "“artist centric model” aka the demonetization of 90% of the songs on spotify\n\n*this is not a rant, this is a genuine topic of discussion & I’m curious about what y’all think and feel on the matter* The 1,000 streams or less policy Spotify rolled out in 2024 demonetized over 80% o"
+      ],
+      "raw_labels": [
+        "jazz musicians",
+        "music fan and musician",
+        "small artist, niche audience"
+      ]
+    },
+    {
+      "segment": "developer",
+      "count": 3,
+      "pct_of_segments": 1.0,
+      "example_quotes": [
+        "Spotify only does Wrapped once a year, I made an app that does it on-demand\n\nI built a simple app that creates playlists in Spotify based on your listening history from the last: - 4 weeks - 6 months - ~1 year - All Time * * “All Time” includes your most recent songs from your to",
+        "Got tired of my playlists, so I made MusicPool\n\nHey everyone, I’ve been building a little side project called MusicPool. It’s a simple app that helps you discover new music through people who share your taste. Pick a genre, get matched anonymously with someone who loves the same",
+        "I made a free browser game to finally settle who in your friend group has the best music taste (Looking for testers!)\n\nHey everyone! I’m always looking for fun ways to share music and find new songs, so I built a little web game called Aux Battles. I'm looking for some fellow mus"
+      ],
+      "raw_labels": [
+        "app developer",
+        "game developer",
+        "new developer"
+      ]
+    },
+    {
+      "segment": "music discoverer",
+      "count": 3,
+      "pct_of_segments": 1.0,
+      "example_quotes": [
+        "I need suggestions for new songs! Drop comment or dm me a song!\n\nI’m into rare Americans, akon, baby bash, some Spanish music, siames. Lil bit of everything so if it’s weird or whatever im cool with it! Not into classical music or screamo🤣 [link] [comments]",
+        "Share your favourite self-made playlist\n\nBeen listening to too much Linkin Park as of late and wanna branch out a bit so looking for something new but not necessarily of any particular genre. https://open.spotify.com/playlist/7yCm5ycRLbVRgvMAsR59Af?si=wgXjOgtES8WXxztpwV3pyg Here'",
+        "How do you find new music you actually like?\n\nI’ve never really been a big music listener. There are years of my life where I didn’t listen to a single song. On top of that, I’ve always been terrible at remembering lyrics (but that’s another story). Now I’d like to start getting"
+      ],
+      "raw_labels": [
+        "new music listener",
+        "open to new music"
+      ]
+    },
+    {
+      "segment": "heavy user",
+      "count": 2,
+      "pct_of_segments": 0.7,
+      "example_quotes": [
+        "Premium is pretty cheap and 100% worth it as someone who uses the app everyday",
+        "Going through thousands of songs per week changes the way I discover music.\n\nMusic discovery is a regular part of my week. I go through a huge mix: Release lists, genre dives, and targeted playlists. The rest is whatever catches my ear. It’s always interesting seeing the differen"
+      ],
+      "raw_labels": [
+        "daily user",
+        "heavy user"
+      ]
+    },
+    {
+      "segment": "iOS user",
+      "count": 2,
+      "pct_of_segments": 0.7,
+      "example_quotes": [
+        "It’s good but ads suck and smart shuffle isn’t enabled on iPhone",
+        "me and my friend are experiencing similar inconveniences so we both have iPhones and we both have iPads and Spotify doesn't really work very well on either of our iPhones like we can't skip music. We can't pick our own music. There's too many ads. It adds songs to our playlist th"
+      ],
+      "raw_labels": [
+        "iPhone user",
+        "iPhone users"
+      ]
+    },
+    {
+      "segment": "parent / family user",
+      "count": 2,
+      "pct_of_segments": 0.7,
+      "example_quotes": [
+        "my wife is pregnant, and I’m realizing that I don’t really know any lullabies.\n\nAny recommendations for lullabies that I can learn to sing my child? I know it’s not technically a lullaby, but the first one I learned was “ red is the rose” submitted by /u/Economy-Bar3014 [link] [c",
+        "Help me build a playlist for my sick teenager?\n\nHello, all. My 14yr old is currently undergoing immunotherapy. At the end of this month we will be meeting with the heart failure team to discuss a timeline for his heart transplant. Needless to say, the kiddo is exhausted. He’s in"
+      ],
+      "raw_labels": [
+        "new parent",
+        "parent of a sick teenager"
+      ]
+    },
+    {
+      "segment": "repeatedly charged customer",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "have showed proof of being charged like they said and they blamed something they wont fix any problembut blame everyone else. I have been charged 4 times in one month for my account and I only have one account sent proof of one account and that they took payment out multiple time"
+      ],
+      "raw_labels": [
+        "repeatedly charged customer"
+      ]
+    },
+    {
+      "segment": "phone user",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "I uninstalled it for a little bit and then I reinstalled it and it was fine but it kept it keeps disappearing from everywhere and I can't open it \"Uptaded\" its my phone"
+      ],
+      "raw_labels": [
+        "phone user"
+      ]
+    },
+    {
+      "segment": "low-income user",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "not 1 not 2 BUT 3 ADS after every two songs OMG why are you begging me 😭😭😭🙏🏻🙏🏻 I don't have money I'm NOT changing my mind I'd rather use YouTube music"
+      ],
+      "raw_labels": [
+        "low-income user"
+      ]
+    },
+    {
+      "segment": "new people",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "I've been using this app for years its great easy for new people"
+      ],
+      "raw_labels": [
+        "new people"
+      ]
+    },
+    {
+      "segment": "Samsung Galaxy S10 user",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "app keeps crashing on my Samsung Galaxy S10. trying to listen to a podcast and the app stops every 3 minutes. what happened? this app used to work fine before."
+      ],
+      "raw_labels": [
+        "Samsung Galaxy S10 user"
+      ]
+    },
+    {
+      "segment": "conservative user",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "I’ll never fork over my hard earned money to a leftist organization like Spotify. This is extortion; You make a like list of songs then they force you to listen songs you don’t like in your playlist. Open your eyes people hold onto your CDs for dear life if you still owe them."
+      ],
+      "raw_labels": [
+        "conservative user"
+      ]
+    },
+    {
+      "segment": "senior user",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "I’m 65 years old and music is the   best medicine for one’s soul and mental health. Listen to songs from junior high school to high school. And to the present.  Memories, long forgotten have been renewed in my soul  go for the premium it will bring happiness to your life  ✌️"
+      ],
+      "raw_labels": [
+        "senior citizen"
+      ]
+    },
+    {
+      "segment": "podcast listener",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "The ads I am getting (even on podcasts, not just music) are just annoying. You must remove all ads and just let me listen to my podcasts and music."
+      ],
+      "raw_labels": [
+        "podcast listener"
+      ]
+    },
+    {
+      "segment": "language learner",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Your favourite song that’s not in English?\n\nI need some recommendations for non-english songs!!! I love learning new languages and I learn them through songs alot! Any language is welcomed! Thanks in advance. Edit: THANK YOU SO MUCH FOR ALL YOUR RECOMMENDATIONS! I will try my bes"
+      ],
+      "raw_labels": [
+        "language learner"
+      ]
+    },
+    {
+      "segment": "DJ / music producer",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "how to make mix sound good\n\nfirst things first: here is my mix. would work fine as a playlist but if you have mix, try it out that way! https://open.spotify.com/playlist/4gYqSoy5HUTlV8WpReBUmE?si=AxEweFt0SmiCR1oi1-g_Sg&pi=PQ1JmNEaThCbo secondly, crossposting some info on how to m"
+      ],
+      "raw_labels": [
+        "DJ or music producer"
+      ]
+    },
+    {
+      "segment": "hopeless romantic",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "If \"Yearning\" Were a song, for hopeless romantic\n\nI want to know your song suggestions on this If yearning were a song what are your top go too for a hopeless romantic such as myself I want ALL kinds of songs that make you feel like its yearning My songs I have so far: Do i wanna"
+      ],
+      "raw_labels": [
+        "hopeless romantic"
+      ]
+    },
+    {
+      "segment": "music promoter",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Songs with under 1 million listens\n\nHi! I recently started an Instagram account to promote lesser known artists by posting a daily song with under 1 million listens. I love indie rock/folk but open to all genres. Please drop your favorite songs with under 1 mil listens, thanks! s"
+      ],
+      "raw_labels": [
+        "music promoter"
+      ]
+    },
+    {
+      "segment": "open to suggestions",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Want some new artist suggestions, any genre\n\nSo my main genre i listen too is underground rap or just hiphop in general, but I'll listen to Billie Eilish, Ariana Grande, Indie, K-Pop etc (honestly I'll listen to anything you guys suggest, anything but metal music) I've been wanti"
+      ],
+      "raw_labels": [
+        "open to suggestions"
+      ]
+    },
+    {
+      "segment": "Gen Z user",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Drop your most slept on playlist below, let's put each other on fr\n\nToo many gems out here gettin no love. I made this joint, Old Tunes '50 to '10, all my favs from wayyy back, even tho I'm Gen Z. Here’s mine: https://spotify.link/yqbhgyKCxXb Not here for follow-for-follow or sav"
+      ],
+      "raw_labels": [
+        "Gen Z user"
+      ]
+    },
+    {
+      "segment": "music taste changed",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "music doesn’t feel the same anymore\n\nI’ve noticed for almost a year now that my music taste has been changing so much and I genuinely don’t know what to do anymore. Music used to be one of the most important things to me, but now I barely even listen to music anymore and I honest"
+      ],
+      "raw_labels": [
+        "music taste changed"
+      ]
+    },
+    {
+      "segment": "new romantic interest",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Songs for falling too fast for someone u just met\n\nI just met a guy, and he has been hitting all the green flags in record speed. I feel the butterflies coming, Im excited to wake up tomorrow. But it's too early. What is a good song with \"Oh shit, Im falling too fast\" kind of vib"
+      ],
+      "raw_labels": [
+        "new romantic interest"
+      ]
+    },
+    {
+      "segment": "Meshuggah fan",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "What's the heaviest band, where the singer doesn't growl?\n\nListening to some Meshuggah, and I love their music, just not in the mood for constant growling. Are there any bands as heavy as Meshuggah, but the singer sings in a clean/cleaner voice? submitted by /u/harrr53 [link] [co"
+      ],
+      "raw_labels": [
+        "Meshuggah fan"
+      ]
+    },
+    {
+      "segment": "user seeking recommendations",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Anti-depression playlist\n\nWhen I'm feeling like complete shit, I always tend to go to the sad playlist I have — even though I know it probably doesn't help at all. So to motivate myself a little bit, I'm trying to create a playlist with songs that boost you a bit. Songs that make"
+      ],
+      "raw_labels": [
+        "user seeking recommendations"
+      ]
+    },
+    {
+      "segment": "music genre fan",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "What specific playlist are you listening to lately? Looking for new playlists & connections!\n\nHey everyone! I’m on the hunt for some new playlists or songs... my recs are kinda repetitive lately. Mostly into Pop, Indie, Alt Pop, soft rock, R&B, Alt R&B, Neo-soul, soul, and hip-ho"
+      ],
+      "raw_labels": [
+        "music genre fan"
+      ]
+    },
+    {
+      "segment": "coffee shop owner",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "I am looking for playlists for my coffee shop!\n\nHelp me find playlists for my coffee shop! Guys, I want nice playlists to put on while working, cause I’m tired listening to the same things over and over! I like Frank Ocean, Tyler, some classic Kanye, Omar Apollo, The Neighbourhoo"
+      ],
+      "raw_labels": [
+        "coffee shop owner"
+      ]
+    },
+    {
+      "segment": "rejected person",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Got rejected. Need some relatable but goofy ahh songs\n\nIt did sting when he rejected me, but I’m not the type to sit around crying to sad songs. Can you recommend some songs that fit my situation but aren’t sad? submitted by /u/Fun-Tear-7072 [link] [comments]"
+      ],
+      "raw_labels": [
+        "rejected person"
+      ]
+    },
+    {
+      "segment": "fan of 70s/80s/90s pop/rock",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "What are your hidden gems/ favourite songs from the 70s/80s/90s?\n\nIm a really big fan of the pop/ rock music from the 70s/80s/90s and constantly look out for hidden gems. Please share yours with me! :) submitted by /u/Old_Goal5388 [link] [comments]"
+      ],
+      "raw_labels": [
+        "fan of 70s/80s/90s pop/rock"
+      ]
+    },
+    {
+      "segment": "karaoke singers",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Any songs that are good for a girl and guy to sing that aren't romantic?\n\nI'm trying to find a song or two for my friend and me to sing together at karaoke soon, but I haven't been able to find many that aren't romantic or insinuate something in them. Do you guys have any suggest"
+      ],
+      "raw_labels": [
+        "karaoke singers"
+      ]
+    },
+    {
+      "segment": "Eurovision fan",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "The best songs in languages other than English, French, Italian, and Spanish.\n\nHi! I am a Eurovision lover because of the opportunity to discover a large variety of songs from all of Europe (I wish these weren't just from all over the world). Last year I asked you for the best so"
+      ],
+      "raw_labels": [
+        "Eurovision fan"
+      ]
+    },
+    {
+      "segment": "musical fan",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Songs for someone who loves musicals, that aren't from musicals.\n\nI love musicals. I love them they never let me down. I love music that tells stories and expresses a specific experience. Sometimes some music just doesn't do that for me. I want to know if anyone has any ideas und"
+      ],
+      "raw_labels": [
+        "musical fan"
+      ]
+    },
+    {
+      "segment": "new album fan",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "looking for “narrative albums”\n\njust as the title says lmao. currently, olivia’s all over my feed rn with her new album, and i saw lots of reviews that u have to listen to it chronologically as it’s like she’s narrating her love story. do u guys know more cohesive albums like thi"
+      ],
+      "raw_labels": [
+        "new album fan"
+      ]
+    },
+    {
+      "segment": "casual user",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "My music choices and organising f**king suck.\n\nSo im someone who mostly likes a bit of whatever I think sounds good. I dont have a favourite artist or specific genre i like. I mostly use Spotify while playing games like shooters as background noise so i dont fall asleep or get bo"
+      ],
+      "raw_labels": [
+        "casual gamer"
+      ]
+    },
+    {
+      "segment": "writer, DnD player",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "Writing (fiction) and using music? (setting: writing)\n\nIn order to be able to \"hear\" my characters as I write (Yes, I know I sound crazy, but iyk, yk.) I create playlists for them and playlists for their primary relationships. Are there any other writers or others here that do an"
+      ],
+      "raw_labels": [
+        "writer, DnD player"
+      ]
+    },
+    {
+      "segment": "looking for positive music",
+      "count": 1,
+      "pct_of_segments": 0.3,
+      "example_quotes": [
+        "I need some subtly happy songs\n\nI was looking at my playlists and noticed that about 90% of my saved songs are sad. They have served me well and helped me tremendously going trough heartache and grief, but I'm trying to have a bit more of a positive outlook at life and I feel lik"
+      ],
+      "raw_labels": [
+        "looking for positive music"
+      ]
+    }
+  ],
+  "question_mapping": {
+    "q1_discovery_struggles": {
+      "question": "Why do users struggle to discover new music?",
+      "relevant_pain_themes": [
+        {
+          "theme": "finding new music",
+          "count": 50,
+          "pct": 14.0
+        },
+        {
+          "theme": "playlist management issues",
+          "count": 24,
+          "pct": 6.7
+        },
+        {
+          "theme": "subscription pricing complaints",
+          "count": 22,
+          "pct": 6.2
+        },
+        {
+          "theme": "AI and algorithm dissatisfaction",
+          "count": 18,
+          "pct": 5.0
+        },
+        {
+          "theme": "repetitive recommendations",
+          "count": 18,
+          "pct": 5.0
+        }
+      ],
+      "relevant_goal_themes": [
+        {
+          "theme": "discover new music",
+          "count": 92,
+          "pct": 24.7
+        }
+      ]
+    },
+    "q2_recommendation_frustrations": {
+      "question": "What are the most common frustrations with recommendations?",
+      "relevant_pain_themes": [
+        {
+          "theme": "playlist management issues",
+          "count": 24,
+          "pct": 6.7
+        },
+        {
+          "theme": "subscription pricing complaints",
+          "count": 22,
+          "pct": 6.2
+        },
+        {
+          "theme": "AI and algorithm dissatisfaction",
+          "count": 18,
+          "pct": 5.0
+        },
+        {
+          "theme": "repetitive recommendations",
+          "count": 18,
+          "pct": 5.0
+        }
+      ],
+      "top_pain_themes_overall": [
+        {
+          "theme": "excessive ads",
+          "count": 88,
+          "pct": 24.6
+        },
+        {
+          "theme": "finding new music",
+          "count": 50,
+          "pct": 14.0
+        },
+        {
+          "theme": "app reliability issues",
+          "count": 46,
+          "pct": 12.9
+        },
+        {
+          "theme": "app bugs and broken features",
+          "count": 43,
+          "pct": 12.0
+        },
+        {
+          "theme": "App crashes and freezes",
+          "count": 26,
+          "pct": 7.3
+        }
+      ]
+    },
+    "q3_listening_behaviors": {
+      "question": "What listening behaviors are users trying to achieve?",
+      "relevant_goal_themes": [
+        {
+          "theme": "discover new music",
+          "cluster_id": 4,
+          "count": 92,
+          "pct_of_field": 24.7,
+          "example_quotes": [
+            "I love it very much but i want to pick out the songs without having to worry about the app saying pay for picking songs",
+            "You have to get a supscription to pick a song and then it plays the most horrible songs you’ve ever listen to in your life",
+            "I’ve used Spotify for so long that I cannot even remember. Highly recommend to anyone looking for a great music streaming service"
+          ],
+          "segment_breakdown": {
+            "long-time user": 22,
+            "music enthusiast": 16,
+            "genre enthusiast": 7,
+            "new user": 7,
+            "free tier user": 6,
+            "music discoverer": 3,
+            "premium user": 2,
+            "language learner": 1,
+            "developer": 1,
+            "heavy user": 1,
+            "open to suggestions": 1,
+            "Meshuggah fan": 1,
+            "accessibility / mental health user": 1
+          },
+          "raw_labels": [
+            "Choose music freely",
+            "Choose own songs",
+            "Discover new music",
+            "Good song suggestions",
+            "choose best music app",
+            "choose own songs",
+            "curate music sets",
+            "discover new albums/bands",
+            "discover new artists",
+            "discover new metal music",
+            "discover new music",
+            "discover new music for road trip",
+            "discover new music from around the world",
+            "discover new songs",
+            "discover new songs or artists",
+            "discover new songs/artists",
+            "dream pop recommendations",
+            "expand music taste",
+            "explore new music genres",
+            "find good music",
+            "find great music streaming service",
+            "find heavy band with clean singer",
+            "find indie artists for playlist",
+            "find more rock and metal female artists",
+            "find music I really like",
+            "find new Spotify friends",
+            "find new artists to love",
+            "find new good songs",
+            "find new music",
+            "find new music recommendations",
+            "find new music suggestions",
+            "find new music to feel something",
+            "find new music to like",
+            "find new music to listen to",
+            "find new music/artists",
+            "find new songs",
+            "find underrated albums to listen to",
+            "find underrated band/artist",
+            "get female-rock recommendations",
+            "get good quality music",
+            "get metal song suggestions",
+            "get new music",
+            "get new music recommendations",
+            "get new song recommendations",
+            "get relevant music suggestions",
+            "get song recommendations",
+            "get song suggestions",
+            "get variety in music",
+            "hear liked songs",
+            "hear new songs",
+            "help upcoming artists get discovered",
+            "non-english song recommendations",
+            "non-mainstream thrash recommendations",
+            "organize music by genre",
+            "pick a song",
+            "pick songs and have DJ",
+            "pick songs without cost",
+            "song recommendations",
+            "understand music taste profile"
+          ]
+        },
+        {
+          "theme": "listen to music",
+          "cluster_id": 7,
+          "count": 72,
+          "pct_of_field": 19.4,
+          "example_quotes": [
+            "It’s really cool to pick my favorite songs and not have to buy to skip the songs! I really enjoy listening to Spotify!",
+            "the app is really good but recently my \"listening stats\" have vanished and i can't see my top songs or how much i've listened to.",
+            "nice app for music I personally think downloading music is better but it's still great for getting quick music"
+          ],
+          "segment_breakdown": {
+            "long-time user": 21,
+            "free tier user": 11,
+            "premium user": 7,
+            "student": 2,
+            "new user": 2,
+            "genre enthusiast": 2,
+            "Samsung Galaxy S10 user": 1,
+            "music enthusiast": 1,
+            "iOS user": 1,
+            "artist / musician": 1,
+            "playlist curator": 1
+          },
+          "raw_labels": [
+            "Choose specific songs to listen to",
+            "Convenience while listening",
+            "Enjoy high-quality music playback",
+            "Listen to music",
+            "Listen to music without interruptions",
+            "Listen to music without issues",
+            "Unrestricted music listening",
+            "View listening stats",
+            "access to music anywhere",
+            "avoid AI music",
+            "avoid repetitive music",
+            "control over listening",
+            "enjoy good music experience",
+            "enjoy music without overthinking",
+            "faster music access",
+            "get into frequent music listening",
+            "getting quick music",
+            "hear all music in a different order",
+            "hear different songs",
+            "hear music",
+            "learn French with music",
+            "listen favorite songs",
+            "listen to Indian music",
+            "listen to a podcast",
+            "listen to a radio-like experience",
+            "listen to a song again",
+            "listen to album without skips",
+            "listen to authentic music",
+            "listen to chosen music",
+            "listen to consecutive episodes",
+            "listen to country music",
+            "listen to different genres",
+            "listen to different songs",
+            "listen to diverse albums",
+            "listen to diverse content",
+            "listen to entire discography",
+            "listen to favorite music for free",
+            "listen to favorite songs",
+            "listen to full discographies",
+            "listen to loved music",
+            "listen to music",
+            "listen to music and dance",
+            "listen to music before sleep",
+            "listen to music on demand",
+            "listen to music peacefully",
+            "listen to music while studying",
+            "listen to old-school Dance",
+            "listen to preferred songs",
+            "listen to single song",
+            "listen to songs",
+            "listen to songs in any order",
+            "listen to songs in order",
+            "listen to specific music",
+            "listen to specific parts of songs",
+            "listen to varied music",
+            "listen to whatever I want",
+            "music listening",
+            "play all music",
+            "play music freely",
+            "share music with others",
+            "smooth music listening on phones",
+            "smooth music playback",
+            "start listening to jazz",
+            "track listening history"
+          ]
+        },
+        {
+          "theme": "add songs to playlist",
+          "cluster_id": 5,
+          "count": 59,
+          "pct_of_field": 15.9,
+          "example_quotes": [
+            "I really like the Prompt playlist feature, but it would be good to make some playlists with more than 100 songs.",
+            "I have a ton of songs on my playlist, but it doesn’t shuffle through all the songs",
+            "I love Spotify, the one thing that needs work though is that shuffle ends up playing the same songs after a little bit instead of going through the whole list."
+          ],
+          "segment_breakdown": {
+            "long-time user": 12,
+            "new user": 6,
+            "music enthusiast": 5,
+            "playlist curator": 3,
+            "student": 3,
+            "premium user": 2,
+            "free tier user": 1,
+            "Gen Z user": 1,
+            "parent / family user": 1,
+            "user seeking recommendations": 1,
+            "music genre fan": 1,
+            "coffee shop owner": 1,
+            "accessibility / mental health user": 1,
+            "Spotify user": 1,
+            "genre enthusiast": 1
+          },
+          "raw_labels": [
+            "Find complete Eurovision 2024 playlist",
+            "Find like-minded playlist creators",
+            "Reduce number of playlists",
+            "Select a song in playlist",
+            "add songs to playlist",
+            "add songs to playlists",
+            "build a playlist for a sick teenager",
+            "compile playlist of songs about 17",
+            "create a Spotify playlist without guest control",
+            "create a chill preparty playlist",
+            "create a collaborative playlist",
+            "create a main playlist",
+            "create a playlist",
+            "create good playlists",
+            "create playlist about being 19",
+            "create playlist for crush",
+            "create playlist for motivation",
+            "create playlist of lesser-known 60s hits",
+            "create random playlist",
+            "create relaxing playlist",
+            "create romantic playlist",
+            "create specific playlists",
+            "create ultimate rock playlist",
+            "curate a jazz playlist",
+            "customised playlist generation",
+            "determine best way to manage playlists",
+            "enjoy playlists and podcasts",
+            "find a long car ride playlist",
+            "find best all-round playlist",
+            "find best playlist curators",
+            "find more songs for playlist",
+            "find new music through playlists",
+            "find new music to add to playlist",
+            "find new playlists",
+            "find playlist organization method",
+            "find playlists for coffee shop",
+            "find pump up playlist",
+            "find songs for playlist",
+            "find woke playlist",
+            "fresh playlists",
+            "get punk playlists",
+            "get real love for playlists",
+            "hear all playlist songs",
+            "listen to downloaded playlists offline",
+            "listen to longer playlists",
+            "listen to own playlist",
+            "listen to whole playlist",
+            "make playlist with someone",
+            "make playlists",
+            "max out playlist",
+            "organise playlists",
+            "organize songs for playlists",
+            "rate songs, categorize playlists",
+            "refresh playlist with new songs",
+            "see curated playlists",
+            "smooth playlist experience",
+            "true random playlist",
+            "update favorite playlists"
+          ]
+        },
+        {
+          "theme": "find song suggestions",
+          "cluster_id": 0,
+          "count": 58,
+          "pct_of_field": 15.6,
+          "example_quotes": [
+            "Need some amazing concept albums that will throw me for a loop\n\nsubmitted by /u/50shadesofmist [link] [comments]",
+            "bad they killed the scrolling feature of Spotify now u can't scroll through your liked songs and cannot change genre during scrolling",
+            "Best song to listen to with a cup of coffee in the morning?\n\nsubmitted by /u/Usernamefut [link] [comments]"
+          ],
+          "segment_breakdown": {
+            "music enthusiast": 7,
+            "long-time user": 5,
+            "new user": 4,
+            "genre enthusiast": 3,
+            "free tier user": 2,
+            "premium user": 1,
+            "Spotify user": 1,
+            "music promoter": 1,
+            "music taste changed": 1,
+            "new romantic interest": 1,
+            "fan of 70s/80s/90s pop/rock": 1,
+            "karaoke singers": 1,
+            "Eurovision fan": 1,
+            "musical fan": 1,
+            "new album fan": 1
+          },
+          "raw_labels": [
+            "Find specific song",
+            "Repeat songs without paying",
+            "add to song library",
+            "build all female music list",
+            "choose specific song",
+            "collect favourite songs from users",
+            "create top 5 song list",
+            "discover non-English songs",
+            "find 70's songs",
+            "find Batman-themed songs",
+            "find RnB & Soul songs",
+            "find all music and podcasts",
+            "find any song",
+            "find cohesive narrative albums",
+            "find common knowledge songs",
+            "find concept albums",
+            "find energizing running songs",
+            "find female led acts",
+            "find fitting music for a rainy night",
+            "find good unknown songs",
+            "find graduation song",
+            "find hidden gems from 70s/80s/90s",
+            "find lesser known songs",
+            "find love songs",
+            "find love songs by female artists",
+            "find more songs like this",
+            "find morning coffee song",
+            "find most addictive song",
+            "find music for Fall season",
+            "find music for movies",
+            "find music that resonates",
+            "find music to fix problems",
+            "find music to relate to",
+            "find musical story songs",
+            "find new Halloween party songs",
+            "find new folk pop songs",
+            "find non-romantic karaoke songs",
+            "find old skool hip hop",
+            "find similar songs",
+            "find soft catchy songs",
+            "find song about love as sin",
+            "find song for fast attraction",
+            "find song suggestions",
+            "find song with name Rose",
+            "find songs about being 19",
+            "find songs with horn section",
+            "find unique music that gives endorphin high",
+            "find unusual prog rock",
+            "find weird music",
+            "find workout music suggestions",
+            "human-like music discovery",
+            "manage liked songs",
+            "organizing music for group fitness classes",
+            "organizing personal memories through music",
+            "scroll through liked songs",
+            "search and play free songs",
+            "skip/forward songs"
+          ]
+        },
+        {
+          "theme": "emotion/mood-driven music seeking",
+          "cluster_id": 6,
+          "count": 32,
+          "pct_of_field": 8.6,
+          "example_quotes": [
+            "I need a good cry\n\nCan you recommend me any songs that help with this? I'm open to anything :) submitted by /u/Limp-Ambassador2127 [link] [comments]",
+            "Pure unadulterated rage\n\nI need songs for when you’re just angry about anything and everything. submitted by /u/Miserable-Treat4360 [link] [comments]",
+            "What are some sad songs with violin in it?\n\nMy favorite songs have violin in them and I'm trying to find more submitted by /u/AdditionalPop6584 [link] [comments]"
+          ],
+          "segment_breakdown": {
+            "music enthusiast": 6,
+            "new user": 4,
+            "accessibility / mental health user": 3,
+            "long-time user": 2,
+            "senior user": 1,
+            "hopeless romantic": 1,
+            "rejected person": 1,
+            "parent / family user": 1,
+            "looking for positive music": 1
+          },
+          "raw_labels": [
+            "Find music to ease depression",
+            "be able to dislike songs",
+            "create sad song playlist",
+            "discover new sad songs",
+            "find 2010s nostalgia songs",
+            "find a happy song",
+            "find a regretful song",
+            "find angry music",
+            "find calming songs",
+            "find calming songs for walks",
+            "find emotional connection through music",
+            "find happier music",
+            "find happy songs",
+            "find melancholic songs",
+            "find nostalgic summer songs",
+            "find relatable but not sad songs",
+            "find sad and chill songs",
+            "find sad music suggestions",
+            "find sad songs with long titles",
+            "find sad songs with violin",
+            "find songs about family issues",
+            "find songs about grief",
+            "find songs for emotional release",
+            "find songs that make them cry",
+            "find subtly happy songs",
+            "find uplifting songs",
+            "get song suggestions for hopeless romantic",
+            "learn lullabies to sing to child",
+            "listen to nostalgic songs",
+            "sad music recommendations",
+            "share emotional journey through music",
+            "upbeat songs with dark lyrics"
+          ]
+        },
+        {
+          "theme": "ambient / background listening",
+          "cluster_id": 1,
+          "count": 27,
+          "pct_of_field": 7.3,
+          "example_quotes": [
+            "the bestest app in my phone it is my cofort zone but to much ads make me irritated but nothing else is bad",
+            "What song motivates you to get things done?\n\nsubmitted by /u/Usernamefut [link] [comments]",
+            "oh boy, another inexplicable price hike in a very short time. it'll be 2 stars next time. when I hit zero I stop using your app after 10 years of daily use."
+          ],
+          "segment_breakdown": {
+            "long-time user": 7,
+            "premium user": 4,
+            "free tier user": 2,
+            "DJ / music producer": 1,
+            "artist / musician": 1,
+            "casual user": 1,
+            "writer, DnD player": 1
+          },
+          "raw_labels": [
+            "Background noise while gaming",
+            "Convenient app experience",
+            "Customize content display",
+            "Insult friends openly",
+            "Save money on audiobooks",
+            "Track reading progress",
+            "Use the app reliably",
+            "access to audiobooks",
+            "avoid boring trip",
+            "comment on podcast episodes",
+            "continue using app",
+            "create a smooth mix",
+            "create time capsules",
+            "decompress",
+            "find best EQ settings",
+            "get things done",
+            "hear characters while writing",
+            "keep 4x1 format",
+            "listen to transitions in HADES",
+            "make mix sound good",
+            "relaxation",
+            "relaxation/leisure time",
+            "show gratitude",
+            "smooth app experience",
+            "stay focused while studying",
+            "understand new streaming rules",
+            "หาเพลงที่ดี"
+          ]
+        },
+        {
+          "theme": "listen to music without ads",
+          "cluster_id": 3,
+          "count": 23,
+          "pct_of_field": 6.2,
+          "example_quotes": [
+            "standard is not that bad.. it's just the ads that keep bothering. Premium is great, Spotify has superior sound quality.",
+            "Spotify plays music in the background of other apps and plays music when I turn off my phone without buying premium.",
+            "The ads I am getting (even on podcasts, not just music) are just annoying. You must remove all ads and just let me listen to my podcasts and music."
+          ],
+          "segment_breakdown": {
+            "free tier user": 9,
+            "premium user": 5,
+            "long-time user": 3,
+            "podcast listener": 1
+          },
+          "raw_labels": [
+            "Affordable music subscription",
+            "Listen to music without ads",
+            "ad-free listening",
+            "ad-free listening experience",
+            "ad-free music experience",
+            "avoid ads",
+            "commercial-free listening",
+            "enjoy commercial free music",
+            "enjoy music without ads",
+            "hear songs without paying",
+            "listen ad-free",
+            "listen to music without ads",
+            "listen to music without premium",
+            "listen to songs without ads",
+            "listen without ads"
+          ]
+        },
+        {
+          "theme": "basic feature expectations",
+          "cluster_id": 2,
+          "count": 9,
+          "pct_of_field": 2.4,
+          "example_quotes": [
+            "The mobile version of Spotify is heavily paywalled, I'll never buy premium. I miss Google Play Music...",
+            "The app itself is good, but I hate how after every one song 3 adds appear. And no, im not planning on buying Spotify premium, because i can't afford it.",
+            "I’m baffled as to why you cannot rewind songs or go back in a playlist without having premium. I feel as though that should be a feature by default? the app is fine otherwise."
+          ],
+          "segment_breakdown": {
+            "premium user": 3,
+            "Spotify user": 2,
+            "long-time user": 1,
+            "free tier user": 1
+          },
+          "raw_labels": [
+            "Expect default features",
+            "Get free premium",
+            "Protect account from scams",
+            "Use free trial",
+            "avoid premium cost",
+            "avoid premium subscription",
+            "continue using premium service",
+            "determine if Spotify premium is worth the money",
+            "upgrade to premium"
+          ]
+        }
+      ]
+    },
+    "q4_repetition_causes": {
+      "question": "What causes users to repeatedly listen to the same content?",
+      "relevant_pain_themes": [
+        {
+          "theme": "AI and algorithm dissatisfaction",
+          "count": 18,
+          "pct": 5.0
+        },
+        {
+          "theme": "repetitive recommendations",
+          "count": 18,
+          "pct": 5.0
+        }
+      ],
+      "repetition_complaint_count": 10,
+      "example_quotes": [
+        "I LOVE THE FREE ALGORITHM, IT FEELS LIKE COMMUNICATION, the subscription feels like it dulling my mind with the same old NEW SlOp.",
+        "I love Spotify, the one thing that needs work though is that shuffle ends up playing the same songs after a little bit instead of going through the whole list.",
+        "I love it but I want to repeat the songs with out paying"
+      ]
+    },
+    "q5_segment_challenges": {
+      "question": "Which user segments experience different discovery challenges?",
+      "segment_themes": [
+        {
+          "segment": "long-time user",
+          "count": 92,
+          "pct_of_segments": 31.0,
+          "example_quotes": [
+            "okay i’ve been using spotify for 3years and it’s great it has all the songs u could think of. it’s great try it out pleaseeee",
+            "I’ve used Spotify for so long that I cannot even remember. Highly recommend to anyone looking for a great music streaming service",
+            "This app has been my go to for music since 2010 and that saying something. If anybody has the time to listen to music this is the app.👍🏽"
+          ],
+          "raw_labels": [
+            "former Google Play Music user",
+            "lifetime customer",
+            "long-time Spotify user",
+            "long-time customer",
+            "long-time fan",
+            "long-time music fan",
+            "long-time music listener",
+            "long-time music lover",
+            "long-time rap fan",
+            "long-time subscriber",
+            "long-time user"
+          ]
+        },
+        {
+          "segment": "music enthusiast",
+          "count": 36,
+          "pct_of_segments": 12.1,
+          "example_quotes": [
+            "Narrow music taste\n\nHelp me get some variety, after hearing Green Day and blink-182, other music feels too slow. I love rap and a bit of pop so that'd be helpful but now I'd get so bored ;-; [link] [comments]",
+            "Female list\n\nLooking to build an all female list. I have artist like Fleetwood Mac, Mazzy Star, Evenesnce, Eve, No Doubt, Janet Jackson and En Vogue. What else do you enjoy with a female singer? submitted by /u/Dierks_Ford [link] [comments]",
+            "I desperately NEED NEW MUSIC!!\n\nI have been listening to the same songs for some time and keep getting bored of them so I’d rather scroll instead which I do not want to. The genres I listen to are american rap, chill rap and r&b. submitted by /u/nohypejj [link] [comments]"
+          ],
+          "raw_labels": [
+            "Indian music fan",
+            "goth music fan",
+            "music discovery enthusiast",
+            "music enthusiast",
+            "music fan",
+            "music fan with specific tastes",
+            "music lover",
+            "music obsessed individual",
+            "new music fan",
+            "teenage music fan",
+            "young adult music fan"
+          ]
+        },
+        {
+          "segment": "free tier user",
+          "count": 34,
+          "pct_of_segments": 11.4,
+          "example_quotes": [
+            "Spotify plays music in the background of other apps and plays music when I turn off my phone without buying premium.",
+            "I LOVE THE FREE ALGORITHM, IT FEELS LIKE COMMUNICATION, the subscription feels like it dulling my mind with the same old NEW SlOp.",
+            "It does give high quality music but treats you like trash if you don’t have premium. I can’t even go 1-2 songs without a two minute ad"
+          ],
+          "raw_labels": [
+            "free Spotify user",
+            "free tier user",
+            "free trial user",
+            "free user"
+          ]
+        },
+        {
+          "segment": "premium user",
+          "count": 30,
+          "pct_of_segments": 10.1,
+          "example_quotes": [
+            "It's good now I prefer this over prime music. I regularly use it now previously Spotify was limited for non pro users way too much now it's good.",
+            "The app itself is good, but I hate how after every one song 3 adds appear. And no, im not planning on buying Spotify premium, because i can't afford it.",
+            "Amazing app just wish that non premium people didn’t have so many adds and could pick songs more and have the DJ but I love Spotify premium so much better"
+          ],
+          "raw_labels": [
+            "Spotify premium user",
+            "can't afford premium",
+            "non pro user",
+            "paid subscriber",
+            "paying user",
+            "premium considering user",
+            "premium plan subscriber",
+            "premium plan user",
+            "premium subscriber",
+            "premium tier consideration",
+            "premium user",
+            "pro user"
+          ]
+        },
+        {
+          "segment": "new user",
+          "count": 23,
+          "pct_of_segments": 7.7,
+          "example_quotes": [
+            "Songs for a playlist for this girl I’m crushing on rn\n\nOpen to whatever really I don’t have anything in mind like vibe or genres submitted by /u/WhiteChocolate907 [link] [comments]",
+            "made my first account and when I start to play it, suddenly a random song plays instead, Spotify, please stop this with new accounts! especially ones who don't know how to stop those random song playing",
+            "Reccomend songs chill and sad\n\nHii Could you all please recommend me songs that are sad i love that kind of songs and i want it to be chill also!! Thank youu🫶🏻 submitted by /u/hihihimayoyoyo [link] [comments]"
+          ],
+          "raw_labels": [
+            "new user",
+            "new user seeking emotional connection"
+          ]
+        },
+        {
+          "segment": "genre enthusiast",
+          "count": 13,
+          "pct_of_segments": 4.4,
+          "example_quotes": [
+            "Looking for old skool hip hop\n\nI love hip hop from the 80s and 90s, can I get some suggestions submitted by /u/ExpectDragons [link] [comments]",
+            "Need New Song Recommendations\n\nIm really liking listening to pantera, megadeth, slayer, lamb of god, and stuff like that. Any songs that you guys can recommend me to listen to? submitted by /u/Classic_Ad8455 [link] [comments]",
+            "Let it go - indie, vintage soul, dreams vibes\n\nhttps://open.spotify.com/playlist/4zWYAtsXvypMpDtZvDJmJs?si=8sQ3zKaQSJiIIMkuxMm1Wg Please suggest more songs like this im obsessed submitted by /u/myloveismineohmine [link] [comments]"
+          ],
+          "raw_labels": [
+            "Ska/Punk/rock fan",
+            "country music fan",
+            "hip hop fan",
+            "indie music fan",
+            "jazz music fan",
+            "metal music fan",
+            "pop music fan",
+            "prog rock fan",
+            "rock music fan"
+          ]
+        },
+        {
+          "segment": "Spotify user",
+          "count": 7,
+          "pct_of_segments": 2.4,
+          "example_quotes": [
+            "Is Spotify premium worth the money?\n\nTitle Edit: people are saying \"i hate ads after every 2-3 songs. I have no idea why but I get 30 seconds ads after like, 8 or 10 songs. I don't have premium not any mod or something. Just pure vanilla Spotify from playstore and still no ads fo",
+            "Does anyone know the background music on Spotify Wrapped 2025?\n\nHey everyone! I’m going crazy trying to find the track that plays at the end of Spotify Wrapped 2025, you know, on the page where you can choose to review specific slides. It’s a pretty chill, kind of house track wit",
+            "Someone wants to buy my Spotify playlist\n\nHey everyone. Someone hit me up on Spotify and asked to buy my Spotify account. I'll put a screenshot of his account in the comments. I have a playlist with over 23k followers so they are interested in that. I told them that I wasn't inte"
+          ],
+          "raw_labels": [
+            "Spotify executive",
+            "Spotify user",
+            "Spotify user with large following",
+            "Spotify user, venue manager",
+            "vanilla Spotify user"
+          ]
+        },
+        {
+          "segment": "student",
+          "count": 6,
+          "pct_of_segments": 2.0,
+          "example_quotes": [
+            "if you buy any kind of premium you're good to go. Especially If you have a habit of listening to music while studying like me then just get student premium",
+            "Great free music with Student Discount, Walmart and Sam’s Plus",
+            "female college student looking for pump up playlist on the way to my internship\n\nkinda getting tired of my playlist. I love lady gaga, beyonce, doechii, really anything that hypes me up submitted by /u/toryisbae [link] [comments]"
+          ],
+          "raw_labels": [
+            "GCSE student",
+            "female college student",
+            "rising college student",
+            "student"
+          ]
+        },
+        {
+          "segment": "accessibility / mental health user",
+          "count": 5,
+          "pct_of_segments": 1.7,
+          "example_quotes": [
+            "What song brought you out of your deepest, darkest thoughts?\n\nWhat song brought you out of depression? Can you share what it was (a song, artist, album, or playlist) and why? I heal better with music, but I now blindly go through songs and cannot find any that can ease my soul. Y",
+            "Song suggestions?!\n\nI find it difficult to listen to new music because of my ADHD, but I want to learn new music. Im also going on a road trip in a few months and want to make a giant playlist. I like pretty much everything but I prefer trap metal, rock, indie, pop rock, indie ro",
+            "I need some more calming songs\n\nHello! I have very bad anxiety. Listening to music helps me calm down quite a bit. I have made a calming playlist already. I need some songs that are calming. Preferably slower songs in Russian, English, German, or Finnish. My playlist is around 3"
+          ],
+          "raw_labels": [
+            "ADHD user",
+            "anxiety sufferer",
+            "depression listener",
+            "person with depression"
+          ]
+        },
+        {
+          "segment": "playlist curator",
+          "count": 4,
+          "pct_of_segments": 1.3,
+          "example_quotes": [
+            "Any lost-to-time Flower Power hits?\n\nIm creating a playlist of 60s songs that the newer generation would be interested to hear. I'm talking major 60s hits that people these days just haven't heard of. Next Plane To London by the Rose Garden comes to mind. Any suggestions? submitt",
+            "Any songs whose first minute is odd or silent in relation to the rest of the song, impelling you to check what's playing each time?\n\nIt's for my playlist. https://open.spotify.com/playlist/4EvttpwBjfEZrKJJO9SFS9?si=afcce5c4da0e44aa I already have nine songs in it that fit the req",
+            "Nothing but the best of 90's dance floor Classics\n\nHey, everyone. I’ve curated a 7+ hour playlist of pure classic Dance hits, no fillers, just the tracks that defined the genre. If you’re into old-school Dance, give it a listen. If you like it, please save it to your library and"
+          ],
+          "raw_labels": [
+            "avid playlist maker",
+            "curator of 90's dance playlist",
+            "music curator",
+            "playlist creator"
+          ]
+        },
+        {
+          "segment": "Android user",
+          "count": 3,
+          "pct_of_segments": 1.0,
+          "example_quotes": [
+            "new android feature\n\nI love what they've done on android. Now, when I go to edit the order of a playlist, I can see the thumbnails! Yes! [link] [comments]",
+            "On Premium and app keeps turning off by itself. Super buggy on Android. Performance and reliability significantly lowered due to adding a bunch of new features nobody asked for.",
+            "Very buggy, plays when unprompted, pauses or crashes when unprompted, etc. (Android version) Absolutely not worth what they're charging. I'm convinced they've replaced all their Swedish developers with Indians. Alternatives preferred."
+          ],
+          "raw_labels": [
+            "Android user",
+            "android user"
+          ]
+        },
+        {
+          "segment": "artist / musician",
+          "count": 3,
+          "pct_of_segments": 1.0,
+          "example_quotes": [
+            "so let me start of by saying that spotify premium is one of the best gifts ive ever gotten. im a huge music fan and musician who spends lots of time listening to albums, playlists, and more. spotify premium gives you access to everything when you want it and where you want it. bu",
+            "Jazz pianist Jason Moran just found a fake generated EP on his official Spotify profile. It was indie-pop. His response: \"There is not even a piano player on this whole record.\" Spotify removed 75 million spam tracks last year. It is not enough.\n\nDigital Music News reported this",
+            "“artist centric model” aka the demonetization of 90% of the songs on spotify\n\n*this is not a rant, this is a genuine topic of discussion & I’m curious about what y’all think and feel on the matter* The 1,000 streams or less policy Spotify rolled out in 2024 demonetized over 80% o"
+          ],
+          "raw_labels": [
+            "jazz musicians",
+            "music fan and musician",
+            "small artist, niche audience"
+          ]
+        },
+        {
+          "segment": "developer",
+          "count": 3,
+          "pct_of_segments": 1.0,
+          "example_quotes": [
+            "Spotify only does Wrapped once a year, I made an app that does it on-demand\n\nI built a simple app that creates playlists in Spotify based on your listening history from the last: - 4 weeks - 6 months - ~1 year - All Time * * “All Time” includes your most recent songs from your to",
+            "Got tired of my playlists, so I made MusicPool\n\nHey everyone, I’ve been building a little side project called MusicPool. It’s a simple app that helps you discover new music through people who share your taste. Pick a genre, get matched anonymously with someone who loves the same",
+            "I made a free browser game to finally settle who in your friend group has the best music taste (Looking for testers!)\n\nHey everyone! I’m always looking for fun ways to share music and find new songs, so I built a little web game called Aux Battles. I'm looking for some fellow mus"
+          ],
+          "raw_labels": [
+            "app developer",
+            "game developer",
+            "new developer"
+          ]
+        },
+        {
+          "segment": "music discoverer",
+          "count": 3,
+          "pct_of_segments": 1.0,
+          "example_quotes": [
+            "I need suggestions for new songs! Drop comment or dm me a song!\n\nI’m into rare Americans, akon, baby bash, some Spanish music, siames. Lil bit of everything so if it’s weird or whatever im cool with it! Not into classical music or screamo🤣 [link] [comments]",
+            "Share your favourite self-made playlist\n\nBeen listening to too much Linkin Park as of late and wanna branch out a bit so looking for something new but not necessarily of any particular genre. https://open.spotify.com/playlist/7yCm5ycRLbVRgvMAsR59Af?si=wgXjOgtES8WXxztpwV3pyg Here'",
+            "How do you find new music you actually like?\n\nI’ve never really been a big music listener. There are years of my life where I didn’t listen to a single song. On top of that, I’ve always been terrible at remembering lyrics (but that’s another story). Now I’d like to start getting"
+          ],
+          "raw_labels": [
+            "new music listener",
+            "open to new music"
+          ]
+        },
+        {
+          "segment": "heavy user",
+          "count": 2,
+          "pct_of_segments": 0.7,
+          "example_quotes": [
+            "Premium is pretty cheap and 100% worth it as someone who uses the app everyday",
+            "Going through thousands of songs per week changes the way I discover music.\n\nMusic discovery is a regular part of my week. I go through a huge mix: Release lists, genre dives, and targeted playlists. The rest is whatever catches my ear. It’s always interesting seeing the differen"
+          ],
+          "raw_labels": [
+            "daily user",
+            "heavy user"
+          ]
+        },
+        {
+          "segment": "iOS user",
+          "count": 2,
+          "pct_of_segments": 0.7,
+          "example_quotes": [
+            "It’s good but ads suck and smart shuffle isn’t enabled on iPhone",
+            "me and my friend are experiencing similar inconveniences so we both have iPhones and we both have iPads and Spotify doesn't really work very well on either of our iPhones like we can't skip music. We can't pick our own music. There's too many ads. It adds songs to our playlist th"
+          ],
+          "raw_labels": [
+            "iPhone user",
+            "iPhone users"
+          ]
+        },
+        {
+          "segment": "parent / family user",
+          "count": 2,
+          "pct_of_segments": 0.7,
+          "example_quotes": [
+            "my wife is pregnant, and I’m realizing that I don’t really know any lullabies.\n\nAny recommendations for lullabies that I can learn to sing my child? I know it’s not technically a lullaby, but the first one I learned was “ red is the rose” submitted by /u/Economy-Bar3014 [link] [c",
+            "Help me build a playlist for my sick teenager?\n\nHello, all. My 14yr old is currently undergoing immunotherapy. At the end of this month we will be meeting with the heart failure team to discuss a timeline for his heart transplant. Needless to say, the kiddo is exhausted. He’s in"
+          ],
+          "raw_labels": [
+            "new parent",
+            "parent of a sick teenager"
+          ]
+        },
+        {
+          "segment": "repeatedly charged customer",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "have showed proof of being charged like they said and they blamed something they wont fix any problembut blame everyone else. I have been charged 4 times in one month for my account and I only have one account sent proof of one account and that they took payment out multiple time"
+          ],
+          "raw_labels": [
+            "repeatedly charged customer"
+          ]
+        },
+        {
+          "segment": "phone user",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "I uninstalled it for a little bit and then I reinstalled it and it was fine but it kept it keeps disappearing from everywhere and I can't open it \"Uptaded\" its my phone"
+          ],
+          "raw_labels": [
+            "phone user"
+          ]
+        },
+        {
+          "segment": "low-income user",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "not 1 not 2 BUT 3 ADS after every two songs OMG why are you begging me 😭😭😭🙏🏻🙏🏻 I don't have money I'm NOT changing my mind I'd rather use YouTube music"
+          ],
+          "raw_labels": [
+            "low-income user"
+          ]
+        },
+        {
+          "segment": "new people",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "I've been using this app for years its great easy for new people"
+          ],
+          "raw_labels": [
+            "new people"
+          ]
+        },
+        {
+          "segment": "Samsung Galaxy S10 user",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "app keeps crashing on my Samsung Galaxy S10. trying to listen to a podcast and the app stops every 3 minutes. what happened? this app used to work fine before."
+          ],
+          "raw_labels": [
+            "Samsung Galaxy S10 user"
+          ]
+        },
+        {
+          "segment": "conservative user",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "I’ll never fork over my hard earned money to a leftist organization like Spotify. This is extortion; You make a like list of songs then they force you to listen songs you don’t like in your playlist. Open your eyes people hold onto your CDs for dear life if you still owe them."
+          ],
+          "raw_labels": [
+            "conservative user"
+          ]
+        },
+        {
+          "segment": "senior user",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "I’m 65 years old and music is the   best medicine for one’s soul and mental health. Listen to songs from junior high school to high school. And to the present.  Memories, long forgotten have been renewed in my soul  go for the premium it will bring happiness to your life  ✌️"
+          ],
+          "raw_labels": [
+            "senior citizen"
+          ]
+        },
+        {
+          "segment": "podcast listener",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "The ads I am getting (even on podcasts, not just music) are just annoying. You must remove all ads and just let me listen to my podcasts and music."
+          ],
+          "raw_labels": [
+            "podcast listener"
+          ]
+        },
+        {
+          "segment": "language learner",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Your favourite song that’s not in English?\n\nI need some recommendations for non-english songs!!! I love learning new languages and I learn them through songs alot! Any language is welcomed! Thanks in advance. Edit: THANK YOU SO MUCH FOR ALL YOUR RECOMMENDATIONS! I will try my bes"
+          ],
+          "raw_labels": [
+            "language learner"
+          ]
+        },
+        {
+          "segment": "DJ / music producer",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "how to make mix sound good\n\nfirst things first: here is my mix. would work fine as a playlist but if you have mix, try it out that way! https://open.spotify.com/playlist/4gYqSoy5HUTlV8WpReBUmE?si=AxEweFt0SmiCR1oi1-g_Sg&pi=PQ1JmNEaThCbo secondly, crossposting some info on how to m"
+          ],
+          "raw_labels": [
+            "DJ or music producer"
+          ]
+        },
+        {
+          "segment": "hopeless romantic",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "If \"Yearning\" Were a song, for hopeless romantic\n\nI want to know your song suggestions on this If yearning were a song what are your top go too for a hopeless romantic such as myself I want ALL kinds of songs that make you feel like its yearning My songs I have so far: Do i wanna"
+          ],
+          "raw_labels": [
+            "hopeless romantic"
+          ]
+        },
+        {
+          "segment": "music promoter",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Songs with under 1 million listens\n\nHi! I recently started an Instagram account to promote lesser known artists by posting a daily song with under 1 million listens. I love indie rock/folk but open to all genres. Please drop your favorite songs with under 1 mil listens, thanks! s"
+          ],
+          "raw_labels": [
+            "music promoter"
+          ]
+        },
+        {
+          "segment": "open to suggestions",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Want some new artist suggestions, any genre\n\nSo my main genre i listen too is underground rap or just hiphop in general, but I'll listen to Billie Eilish, Ariana Grande, Indie, K-Pop etc (honestly I'll listen to anything you guys suggest, anything but metal music) I've been wanti"
+          ],
+          "raw_labels": [
+            "open to suggestions"
+          ]
+        },
+        {
+          "segment": "Gen Z user",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Drop your most slept on playlist below, let's put each other on fr\n\nToo many gems out here gettin no love. I made this joint, Old Tunes '50 to '10, all my favs from wayyy back, even tho I'm Gen Z. Here’s mine: https://spotify.link/yqbhgyKCxXb Not here for follow-for-follow or sav"
+          ],
+          "raw_labels": [
+            "Gen Z user"
+          ]
+        },
+        {
+          "segment": "music taste changed",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "music doesn’t feel the same anymore\n\nI’ve noticed for almost a year now that my music taste has been changing so much and I genuinely don’t know what to do anymore. Music used to be one of the most important things to me, but now I barely even listen to music anymore and I honest"
+          ],
+          "raw_labels": [
+            "music taste changed"
+          ]
+        },
+        {
+          "segment": "new romantic interest",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Songs for falling too fast for someone u just met\n\nI just met a guy, and he has been hitting all the green flags in record speed. I feel the butterflies coming, Im excited to wake up tomorrow. But it's too early. What is a good song with \"Oh shit, Im falling too fast\" kind of vib"
+          ],
+          "raw_labels": [
+            "new romantic interest"
+          ]
+        },
+        {
+          "segment": "Meshuggah fan",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "What's the heaviest band, where the singer doesn't growl?\n\nListening to some Meshuggah, and I love their music, just not in the mood for constant growling. Are there any bands as heavy as Meshuggah, but the singer sings in a clean/cleaner voice? submitted by /u/harrr53 [link] [co"
+          ],
+          "raw_labels": [
+            "Meshuggah fan"
+          ]
+        },
+        {
+          "segment": "user seeking recommendations",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Anti-depression playlist\n\nWhen I'm feeling like complete shit, I always tend to go to the sad playlist I have — even though I know it probably doesn't help at all. So to motivate myself a little bit, I'm trying to create a playlist with songs that boost you a bit. Songs that make"
+          ],
+          "raw_labels": [
+            "user seeking recommendations"
+          ]
+        },
+        {
+          "segment": "music genre fan",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "What specific playlist are you listening to lately? Looking for new playlists & connections!\n\nHey everyone! I’m on the hunt for some new playlists or songs... my recs are kinda repetitive lately. Mostly into Pop, Indie, Alt Pop, soft rock, R&B, Alt R&B, Neo-soul, soul, and hip-ho"
+          ],
+          "raw_labels": [
+            "music genre fan"
+          ]
+        },
+        {
+          "segment": "coffee shop owner",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "I am looking for playlists for my coffee shop!\n\nHelp me find playlists for my coffee shop! Guys, I want nice playlists to put on while working, cause I’m tired listening to the same things over and over! I like Frank Ocean, Tyler, some classic Kanye, Omar Apollo, The Neighbourhoo"
+          ],
+          "raw_labels": [
+            "coffee shop owner"
+          ]
+        },
+        {
+          "segment": "rejected person",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Got rejected. Need some relatable but goofy ahh songs\n\nIt did sting when he rejected me, but I’m not the type to sit around crying to sad songs. Can you recommend some songs that fit my situation but aren’t sad? submitted by /u/Fun-Tear-7072 [link] [comments]"
+          ],
+          "raw_labels": [
+            "rejected person"
+          ]
+        },
+        {
+          "segment": "fan of 70s/80s/90s pop/rock",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "What are your hidden gems/ favourite songs from the 70s/80s/90s?\n\nIm a really big fan of the pop/ rock music from the 70s/80s/90s and constantly look out for hidden gems. Please share yours with me! :) submitted by /u/Old_Goal5388 [link] [comments]"
+          ],
+          "raw_labels": [
+            "fan of 70s/80s/90s pop/rock"
+          ]
+        },
+        {
+          "segment": "karaoke singers",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Any songs that are good for a girl and guy to sing that aren't romantic?\n\nI'm trying to find a song or two for my friend and me to sing together at karaoke soon, but I haven't been able to find many that aren't romantic or insinuate something in them. Do you guys have any suggest"
+          ],
+          "raw_labels": [
+            "karaoke singers"
+          ]
+        },
+        {
+          "segment": "Eurovision fan",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "The best songs in languages other than English, French, Italian, and Spanish.\n\nHi! I am a Eurovision lover because of the opportunity to discover a large variety of songs from all of Europe (I wish these weren't just from all over the world). Last year I asked you for the best so"
+          ],
+          "raw_labels": [
+            "Eurovision fan"
+          ]
+        },
+        {
+          "segment": "musical fan",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Songs for someone who loves musicals, that aren't from musicals.\n\nI love musicals. I love them they never let me down. I love music that tells stories and expresses a specific experience. Sometimes some music just doesn't do that for me. I want to know if anyone has any ideas und"
+          ],
+          "raw_labels": [
+            "musical fan"
+          ]
+        },
+        {
+          "segment": "new album fan",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "looking for “narrative albums”\n\njust as the title says lmao. currently, olivia’s all over my feed rn with her new album, and i saw lots of reviews that u have to listen to it chronologically as it’s like she’s narrating her love story. do u guys know more cohesive albums like thi"
+          ],
+          "raw_labels": [
+            "new album fan"
+          ]
+        },
+        {
+          "segment": "casual user",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "My music choices and organising f**king suck.\n\nSo im someone who mostly likes a bit of whatever I think sounds good. I dont have a favourite artist or specific genre i like. I mostly use Spotify while playing games like shooters as background noise so i dont fall asleep or get bo"
+          ],
+          "raw_labels": [
+            "casual gamer"
+          ]
+        },
+        {
+          "segment": "writer, DnD player",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "Writing (fiction) and using music? (setting: writing)\n\nIn order to be able to \"hear\" my characters as I write (Yes, I know I sound crazy, but iyk, yk.) I create playlists for them and playlists for their primary relationships. Are there any other writers or others here that do an"
+          ],
+          "raw_labels": [
+            "writer, DnD player"
+          ]
+        },
+        {
+          "segment": "looking for positive music",
+          "count": 1,
+          "pct_of_segments": 0.3,
+          "example_quotes": [
+            "I need some subtly happy songs\n\nI was looking at my playlists and noticed that about 90% of my saved songs are sad. They have served me well and helped me tremendously going trough heartache and grief, but I'm trying to have a bit more of a positive outlook at life and I feel lik"
+          ],
+          "raw_labels": [
+            "looking for positive music"
+          ]
+        }
+      ],
+      "discovery_pain_by_segment": {
+        "premium user": {
+          "total": 30,
+          "discovery_pain": 2,
+          "pct_with_discovery_pain": 6.7
+        },
+        "long-time user": {
+          "total": 92,
+          "discovery_pain": 16,
+          "pct_with_discovery_pain": 17.4
+        },
+        "free tier user": {
+          "total": 34,
+          "discovery_pain": 2,
+          "pct_with_discovery_pain": 5.9
+        },
+        "Android user": {
+          "total": 3,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "repeatedly charged customer": {
+          "total": 1,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 100.0
+        },
+        "phone user": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "student": {
+          "total": 6,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 16.7
+        },
+        "low-income user": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "music enthusiast": {
+          "total": 36,
+          "discovery_pain": 6,
+          "pct_with_discovery_pain": 16.7
+        },
+        "new user": {
+          "total": 23,
+          "discovery_pain": 6,
+          "pct_with_discovery_pain": 26.1
+        },
+        "new people": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "Samsung Galaxy S10 user": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "heavy user": {
+          "total": 2,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "conservative user": {
+          "total": 1,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 100.0
+        },
+        "iOS user": {
+          "total": 2,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "senior user": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "artist / musician": {
+          "total": 3,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "genre enthusiast": {
+          "total": 13,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "podcast listener": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "Spotify user": {
+          "total": 7,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "developer": {
+          "total": 3,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "language learner": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "DJ / music producer": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "music discoverer": {
+          "total": 3,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "hopeless romantic": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "music promoter": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "open to suggestions": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "Gen Z user": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "music taste changed": {
+          "total": 1,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 100.0
+        },
+        "playlist curator": {
+          "total": 4,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 25.0
+        },
+        "parent / family user": {
+          "total": 2,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "new romantic interest": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "Meshuggah fan": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "user seeking recommendations": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "accessibility / mental health user": {
+          "total": 5,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 20.0
+        },
+        "music genre fan": {
+          "total": 1,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 100.0
+        },
+        "coffee shop owner": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "rejected person": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "fan of 70s/80s/90s pop/rock": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "karaoke singers": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "Eurovision fan": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "musical fan": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "new album fan": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "casual user": {
+          "total": 1,
+          "discovery_pain": 1,
+          "pct_with_discovery_pain": 100.0
+        },
+        "writer, DnD player": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        },
+        "looking for positive music": {
+          "total": 1,
+          "discovery_pain": 0,
+          "pct_with_discovery_pain": 0.0
+        }
+      }
+    },
+    "q6_unmet_needs": {
+      "question": "What unmet needs emerge consistently across reviews?",
+      "top_pain_themes": [
+        {
+          "theme": "excessive ads",
+          "count": 88,
+          "pct": 24.6
+        },
+        {
+          "theme": "finding new music",
+          "count": 50,
+          "pct": 14.0
+        },
+        {
+          "theme": "app reliability issues",
+          "count": 46,
+          "pct": 12.9
+        },
+        {
+          "theme": "app bugs and broken features",
+          "count": 43,
+          "pct": 12.0
+        },
+        {
+          "theme": "App crashes and freezes",
+          "count": 26,
+          "pct": 7.3
+        },
+        {
+          "theme": "playlist management issues",
+          "count": 24,
+          "pct": 6.7
+        },
+        {
+          "theme": "subscription pricing complaints",
+          "count": 22,
+          "pct": 6.2
+        },
+        {
+          "theme": "premium limitations",
+          "count": 22,
+          "pct": 6.2
+        }
+      ],
+      "top_goal_themes": [
+        {
+          "theme": "discover new music",
+          "count": 92,
+          "pct": 24.7
+        },
+        {
+          "theme": "listen to music",
+          "count": 72,
+          "pct": 19.4
+        },
+        {
+          "theme": "add songs to playlist",
+          "count": 59,
+          "pct": 15.9
+        },
+        {
+          "theme": "find song suggestions",
+          "count": 58,
+          "pct": 15.6
+        },
+        {
+          "theme": "emotion/mood-driven music seeking",
+          "count": 32,
+          "pct": 8.6
+        },
+        {
+          "theme": "ambient / background listening",
+          "count": 27,
+          "pct": 7.3
+        }
+      ]
+    }
+  }
+}

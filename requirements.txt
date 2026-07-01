@@ -1,0 +1,11 @@
+# Dashboard dependencies (Streamlit Cloud deployment)
+streamlit
+pandas
+
+# Offline pipeline dependencies (run locally, not needed for dashboard)
+# google-play-scraper
+# langdetect
+# sentence-transformers
+# scikit-learn
+# groq
+# python-dotenv

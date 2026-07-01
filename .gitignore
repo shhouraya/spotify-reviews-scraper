@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data files (large / not needed in repo)
+analysis_outputs/raw_playstore.csv
+analysis_outputs/raw_appstore.csv
+analysis_outputs/raw_reddit.csv
+analysis_outputs/cleaned_dataset.csv
+analysis_outputs/analyzed_dataset.json
+
+# Keep the pre-computed summary for the dashboard
+!analysis_outputs/theme_summary.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
