@@ -19,7 +19,7 @@ The system collects user feedback from Play Store, App Store, and Reddit, proces
 - **Budget**: Free-tier tools only, aside from the existing Claude Code subscription (used for development, not analysis).
 - **Sources used**: Play Store reviews, App Store reviews, and Reddit discussions. Generic "community forums" and broader "social media" were excluded because no reliable free data access exists for them at this scope (e.g., X/Twitter's API is no longer free). Reddit is used as the representative social/community source, accessed via its public Atom/RSS listing feeds (no API key or OAuth required). Reddit's official Data API was ruled out because new apps now require explicit approval before access is granted, which is incompatible with a short deadline.
 - **Dataset size**: Target ~500–1000 combined reviews/posts. This is large enough to surface credible patterns while remaining quick and cheap to process via the free Groq API tier.
-- **Deployment**: The dashboard will be deployed with pre-computed results baked in, so no live AI calls (and therefore no API key) are required at deploy time.
+- **Deployment**: The dashboard is deployed on Streamlit Community Cloud. The first four pages load exclusively from pre-computed JSON (no live API calls). A fifth page — "Ask the Data" — makes live calls to the Groq API using a key stored in Streamlit secrets, allowing users to ask free-form questions about the review data at runtime.
 
 ## 3. Architecture Diagram
 
@@ -27,7 +27,7 @@ The system collects user feedback from Play Store, App Store, and Reddit, proces
 flowchart TD
     A[Play Store Scraper] --> D[Raw Data Store]
     B[App Store Scraper] --> D
-    C[Reddit Scraper - PRAW] --> D
+    C[Reddit Scraper - Atom/RSS] --> D
     D --> E[Cleaning and Deduplication]
     E --> F[Automated Thematic Extraction via Groq API]
     F --> G[Structured JSON Dataset]
@@ -35,6 +35,10 @@ flowchart TD
     H --> I[Theme Summary and Question Mapping]
     I --> J[Streamlit Dashboard]
     J --> K[Deployed on Streamlit Community Cloud]
+    L[User Free-form Question] --> M[Ask the Data Page]
+    I --> M
+    M --> N[Live Groq API Call]
+    N --> O[AI-Generated Answer grounded in themes]
 ```
 
 ## 4. Pipeline Stages
@@ -165,11 +169,17 @@ flowchart TD
 **Tools**: Streamlit, Streamlit Community Cloud (free), GitHub repo.
 
 **Instructions for Claude Code**:
-- Build a Streamlit app with: an overview page (dataset summary, sources, sample sizes), a themes page (charts of theme frequency, segment breakdowns), and a "question answers" page that directly maps findings to each of the six assignment questions with supporting data/quotes.
-- Load all data from the pre-computed JSON files — no live API/Claude Code calls inside the deployed app.
+- Build a Streamlit app with five pages:
+  1. **Overview** — dataset summary, source breakdown, sentiment distribution, sample reviews
+  2. **Themes** — tabbed view of pain point themes, user goal themes, and user segments with drill-down detail and example quotes
+  3. **Question Answers** — findings mapped directly to each of the six research questions with supporting data and quotes
+  4. **Ask the Data** — free-form Q&A interface; user types any question, the app sends it to the Groq API along with the pre-loaded `theme_summary.json` as context, and streams back an AI-generated answer grounded in the data; includes 5 clickable suggested questions and a graceful fallback if the question is out of scope
+  5. **Methodology & Limitations** — pipeline documentation and caveats
+- Pages 1–3 and 5 load exclusively from pre-computed JSON files (no live API calls).
+- Page 4 ("Ask the Data") makes live Groq API calls at runtime; the API key is stored in Streamlit secrets (never committed to the repo).
 - Include a short methodology/limitations note in the app itself.
 
-**Manual steps**: Push to GitHub, connect repo to Streamlit Community Cloud, verify the public link works in an incognito/logged-out browser before submitting.
+**Manual steps**: Push to GitHub, connect repo to Streamlit Community Cloud, add `GROQ_API_KEY` to Streamlit secrets via the app settings UI, verify the public link works in an incognito/logged-out browser before submitting.
 
 **Validation & Test Cases**:
 
@@ -179,6 +189,8 @@ flowchart TD
 | Data consistency | Compare a number shown in dashboard to underlying JSON | Matches exactly |
 | Public accessibility | Open deployed link in incognito/no login | Loads successfully, no auth wall |
 | No broken dependencies | Fresh deploy from clean repo clone | App builds and runs without missing packages |
+| Ask the Data — in-scope question | Ask a question directly about the themes (e.g. "What are the top pain points?") | Returns a specific, data-grounded answer with counts or percentages |
+| Ask the Data — out-of-scope question | Ask something unrelated (e.g. "What is the weather?") | Model responds gracefully, stating it cannot answer from the review data |
 
 ## 5. Data Schema
 
@@ -204,8 +216,9 @@ Each review, after Stage 3 extraction, is represented as:
 ## 6. Deployment Plan
 
 - **Repo structure**: `/scrapers`, `/processing`, `/analysis_outputs`, `/dashboard`, `system_architecture.md`, `README.md`.
-- **Pre-computation**: All scraping, cleaning, extraction, and aggregation happen offline/in-session; only the final JSON outputs are bundled into the deployed app.
+- **Pre-computation**: All scraping, cleaning, extraction, and aggregation happen offline/in-session; only the final JSON outputs (`theme_summary.json`, `analyzed_dataset.json`) are committed to the repo and loaded by the dashboard.
 - **Hosting**: Streamlit Community Cloud (free), connected directly to the GitHub repo for auto-deploy on push.
+- **Secrets**: The `GROQ_API_KEY` is stored in Streamlit Cloud's secrets manager (not committed to the repo). The `.env` file used for local development is excluded via `.gitignore`.
 - **Sharing**: Public Streamlit URL + GitHub repo link shared with the grader.
 
 ## 7. Limitations
@@ -213,7 +226,7 @@ Each review, after Stage 3 extraction, is represented as:
 - Analysis is based on a sample (~500–1000 records), not the full population of reviews/posts; findings are indicative, not exhaustive.
 - Thematic extraction was performed via an automated Groq API pipeline using an open-weight model rather than a frontier model, and was only validated against a small hand-labeled sample rather than the full dataset, so some misclassification is expected.
 - No formal inter-rater reliability study was conducted beyond spot-checking against manually labeled samples; extraction accuracy is approximated, not statistically validated.
-- The deployed dashboard uses static, pre-computed results rather than live analysis, so it does not reflect real-time data.
+- Pages 1–3 and 5 of the dashboard use static, pre-computed results and do not reflect real-time data. The "Ask the Data" page (Page 4) makes live Groq API calls at runtime but answers are still grounded in the same pre-computed theme summary — it does not re-analyse raw reviews dynamically.
 
 ## 8. Mapping to Assignment Questions
 

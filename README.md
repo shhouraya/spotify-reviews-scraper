@@ -107,11 +107,17 @@ Free-form LLM-extracted labels are grouped into themes using:
 **Output themes (pain points):** excessive ads, finding new music, app reliability issues, app bugs and broken features, subscription pricing complaints, AI/algorithm dissatisfaction, repetitive recommendations, and more.
 
 ### Stage 5 — Dashboard
-A 4-page Streamlit app that loads exclusively from pre-computed JSON (no live API calls):
-- **Overview**: total volume, source breakdown, sentiment distribution, sample reviews
-- **Themes**: pain points, user goals, and user segments with drill-down detail
-- **Question Answers**: findings for all 6 research questions
-- **Methodology & Limitations**: pipeline documentation and caveats
+A 5-page Streamlit app deployed on Streamlit Community Cloud:
+
+| Page | Description |
+|---|---|
+| **Overview** | Total volume, source breakdown, sentiment distribution, sample reviews |
+| **Themes** | Pain points, user goals, and user segments with drill-down detail and example quotes |
+| **Question Answers** | Findings mapped to all 6 research questions with supporting data |
+| **Ask the Data** | Free-form Q&A — type any question and get an AI-generated answer grounded in the theme data via a live Groq API call |
+| **Methodology & Limitations** | Pipeline documentation and caveats |
+
+Pages 1–3 and 5 load exclusively from pre-computed JSON. The "Ask the Data" page makes live Groq API calls at runtime using a key stored in Streamlit secrets.
 
 ---
 
@@ -119,13 +125,13 @@ A 4-page Streamlit app that loads exclusively from pre-computed JSON (no live AP
 
 ### Install dependencies
 
-The `requirements.txt` contains only what the dashboard needs (`streamlit`, `pandas`). For the full offline pipeline, install the additional packages listed in comments:
+The `requirements.txt` contains what the dashboard needs (`streamlit`, `pandas`, `groq`). For the full offline pipeline, install the additional packages listed in comments:
 
 ```bash
-pip install streamlit pandas
+pip install streamlit pandas groq
 
 # For pipeline scripts only:
-pip install google-play-scraper langdetect sentence-transformers scikit-learn groq python-dotenv
+pip install google-play-scraper langdetect sentence-transformers scikit-learn python-dotenv
 ```
 
 ### Environment variables
@@ -137,6 +143,8 @@ GROQ_API_KEY=your_groq_api_key_here
 ```
 
 The Groq API is free — get a key at [console.groq.com](https://console.groq.com).
+
+**For Streamlit Cloud deployment**: add `GROQ_API_KEY` to the app's secrets via the Streamlit Cloud UI (Manage app → Settings → Secrets). This powers the "Ask the Data" page in the deployed app.
 
 ### Run the scrapers (Stage 1)
 
@@ -159,6 +167,21 @@ python processing/aggregate.py
 ```bash
 streamlit run dashboard/app.py
 ```
+
+---
+
+## Ask the Data
+
+The dashboard includes a free-form Q&A interface on the **"Ask the Data"** page. Instead of being limited to the six pre-defined research questions, you can ask anything about the review data:
+
+- *"Which user segment is most frustrated with music discovery?"*
+- *"What do users say about Spotify's shuffle algorithm?"*
+- *"How do free-tier users differ from premium users in their complaints?"*
+- Or any custom question
+
+The page also provides 5 clickable suggested questions to get started quickly.
+
+**How it works**: The question is sent to the Groq API (Llama 3.1 8B) along with the full pre-computed `theme_summary.json` as context — including all theme names, counts, percentages, example quotes, and segment breakdowns. The model is instructed to ground its answer in that data and to say so explicitly if a question falls outside what the reviews cover.
 
 ---
 
