@@ -11,7 +11,7 @@ An end-to-end pipeline that collects, cleans, and analyzes user reviews of Spoti
 ## Screenshots
 
 ### Overview Page
-<img width="1906" height="921" alt="image" src="https://github.com/user-attachments/assets/7d54785f-20d5-49ce-951f-50b55db78fed" />
+<img width="1905" height="853" alt="image" src="https://github.com/user-attachments/assets/00f44d32-ec1a-400c-8cd8-ede4c6f1cb97" />
 
 ### Themes Page
 <img width="1906" height="862" alt="image" src="https://github.com/user-attachments/assets/3012ad7b-caaa-48a1-9f5e-e835f7bc54a5" />
